@@ -1,35 +1,52 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-        
-<body>
-    <h1> Diana Menacho</h1>
-    <p>This is a paragraph</p>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD230 Home Page</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="author" content="Diana Menacho">
+    <meta name="description" content="Assignment portal Diana Menacho Terrel in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Diana Menacho Terrel's Assignment Portal</title>
+    <link rel="stylesheet" href="styles/main.css">
+
 </head>
 <body>
-    <h1>Welcome to WDD130 Web Projects</h1>
-    <nav>
-    <a href="wdd230/index.html">Diana w1</a>
-    <a href="web-projects/test-site/index.html">week2</a>
- 
-    </nav>  
-    <p>Diana - WDD230</p> 
+    <div class="container">
+        <header>
+            <img src="images/me.jpg" alt="a picture of me">
+            <h1>Diana Menacho Terrel</h1>
+    
+        </header>
+        <main>
+            <h2>WDD 230: Assignment Portal</h2>
+            <ul>
+                <li>Lesson 02: <a href=".html">Title</a></li>
+                <li>Lesson 03: <a href=".html">Title</a></li>
+                <li>Lesson 04: <a href=".html">Title</a></li>
+                <li>Lesson 05: <a href=".html">Title</a></li>
+                <li>Lesson 06: <a href=".html">Title</a></li>
+                <li>Lesson 07: <a href=".html">Title</a></li>
+                <li>Lesson 08: <a href=".html">Title</a></li>
+                <li>Lesson 09: <a href=".html">Title</a></li>
+                <li>Lesson 10: <a href=".html">Title</a></li>
+                <li>Lesson 11: <a href=".html">Title</a></li>
+                <li>Lesson 12: <a href=".html">Title</a></li>
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> | Diana Menacho Terrel | Rosario, Argentina | <a target="_blank"
+                    href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="updatedDate"></span></p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Montserrat:300,400,700']
+                }
+            });
+    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
