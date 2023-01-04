@@ -1,0 +1,11 @@
+.fit-picture {
+    width: 250px;
+}
+
+.add_border{
+    border:3px solid rgb(45, 45, 59);
+}
+
+img{
+    width: 400px;
+}
