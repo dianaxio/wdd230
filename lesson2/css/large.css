@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #8ee4d8, #465281);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: #3a3e52;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    padding: 1em;
+}
+h1 {
+    margin-bottom: 0.25em;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+header > span {
+    font-size: 1.2em ;
+    color: rgb(243, 251, 253);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+}
+section {
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+section * {
+    font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    /* text-align: center; */
+    background-color: #3a3e52;
+    color: white;
+}
+section > div {
+    padding: 0 10px;
+}
+section > div > span {
+    display: block;
+}
+section > div > * {
+    font-size: 1.05em;
+}
+section img {
+    width: calc(100% - 2px);
+    display: block;
+    margin: 0 auto;
+    border: solid 1px gray;
+    max-width: 320px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3a3e52;
+    border-radius: 10px 10px 0 0;
+    padding: 1em;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+
+}
+
+#lst-updt {
+    padding-top: 5px;
+    display: block;
+    font-size: 0.9em;
+    color: #FFEFB8;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+    
+}

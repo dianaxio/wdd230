@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Assignment ">
-    <title>Design Principles Document</title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styless.css">
-</head>
-<body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design Principles</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/medium.css" media="(max-width: 894px) and (min-width: 650px)">
+        <link rel="stylesheet" href="css/small.css" media="(max-width: 649px)">
+        <link rel="icon" href="../a.png">
+
+    </head>
+    <body>
         <header>
-            <h1>Diana Menacho</h1>
-            <a href="../index.html">Home</a>
+            <h1>Design Principles Document</h1>
+            <span>Diana Menacho Terrel</span>
         </header>
         <main>
-            <h1>Design Principles</h1>
-            <div class="grid">
-                <div class="card">
-                    <h2>Visual Hierarchy</h2>
-                    <img src="img/dropbox.jpg" alt="Dropbox screenshot">
-                    <p>Visual Hierarchy is well exemplified here because we can distinguish easily which content is more impotant</p>
-                    <p>We could identify which is the title and where is the navigation and where the rest of the content</p>
+            <section>
+                <h3>Clean Design</h3>
+                <div>
+                <p><span>Google Fonts API</span></p>
+                <p><a target="_blank" href="https://fonts.google.com/">fonts.google.com</a></p>
+                <img src="images/Google.png"
+                     alt="Google fonts api page for an example of white space and a clean design">
+                <p>
+                    Google Fonts API has a good use of white-space making it have
+                    a clean design. The spacing around all the objects allows
+                    people who are viewing the page to stay calm when looking for
+                    a font.
+                </p>
+                <p>
+                    Clean design comes mostly from the fact that all the fonts
+                    are separated into boxes and have spacing between them it
+                    just makes it more simple.
+                </p>
                 </div>
-                <div class="card">
-                    <h2>White Space & Clean Design</h2>
-                    <img src="img/dribbble.jpg" alt="Dribbble screenshot">
-                    <p>Here we can see how there is enough space between elements.</p>
-                    <p>Enough white space makes the design cleaner and easier to read</p>
+            </section>
+            <section>
+                <h3>Contrast</h3>
+                <div>
+                <p><span>Nike's</span></p>
+                <p><a target="_blank" href="https://www.nike.com/ar/running/pegasus-39?utm_campaign=nikeutm-om-pegasus-39&utm_source=nike&utm_medium=web-home">nike.com.ar</a></p>
+                <img src="images/contrast.png"
+                     alt="nike page for an example of contrast">
+                <p>
+                    Contrast is when two or more very different (opposite) elements are placed together on the page. 
+                    It can aid in legibly improve visual interest, organization and hierarchy and highlighting the 
+                    main message.
+                </p>
+                <p>
+                    This Nike Sports Wear advertisement is a good example of contrast with the use of opposite colors 
+                    and textures. This image features various colors that contrast, making the shoe "highlight" to 
+                    attract the viewer's attention.
+                </p>
                 </div>
-                <div class="card">
-                    <h2>Hick's Law</h2>
-                    <img src="img/gearbest.jpg" alt="Gearbest screenshot">
-                    <p>Gearbest it's a good example of Hick's law because instead of having a large number of options and lists, 
-                        They use simple icons to represent categories and make the user's choice less complicated.</p>
+            </section>
+            <section>
+                <h3>Repetition</h3>
+                <div>
+                <p><span>PBS Kids</span></p>
+                <p><a target="_blank" href="https://pbskids.org/">pbskids.org</a></p>
+                <img src="images/repetition.png"
+                     alt="example of alignment from the GitHub website">
+                <p>
+                    The Principle of Repetition is applied when the same or similar elements are used 
+                    throughout a design. It portraits a sense of harmony and consistency.
+                </p>
+                <p>
+                    PBS KIDS home page is a perfect example of repetition in design. The logo's 
+                    circle shape is also utilized on the icons throughout the site.
+                </p>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
-            <p>&copy; <span id="currentYear"></span> | Diana Menacho | Puno, Peru | <a target="_blank"
-                    href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-            <p>Last Updated: <span id="updatedDate"></span></p>
+            &copy;<span id="year"></span> | Diana Menacho Terrel | Rosario, Argentina | <a target="_blank"
+            href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <span id="lst-updt"></span>
         </footer>
-    </div>
-    <script src="../js/script.js"></script>
-</body>
+        <script src="js/dates.js"></script>
+    </body>
 </html>
