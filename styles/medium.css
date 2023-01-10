@@ -1,0 +1,24 @@
+  /* medium */
+  @media only screen and (min-width: 32.5em){
+
+    .container {
+        max-width:65%;
+    }
+
+    header img {
+        float: left;
+        max-width: 8em;
+        height: 150px;
+        border-radius: .4em;
+
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
+}
