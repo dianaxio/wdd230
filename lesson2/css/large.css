@@ -30,8 +30,16 @@ header > a {
     color: rgb(243, 251, 253);
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    
 
 }
+
+a:hover {
+    color: #52cebd;
+    cursor: pointer;
+   
+
+  }
 
 main {
     display: grid;
@@ -71,7 +79,7 @@ section img {
     width: calc(100% - 2px);
     display: block;
     margin: 0 auto;
-    border: solid 1px gray;
+    border: solid 1px #3a3e52;
     max-width: 320px;
 }
 
