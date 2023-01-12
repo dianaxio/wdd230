@@ -25,10 +25,11 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
 
 }
-header > span {
+header > a {
     font-size: 1.2em ;
     color: rgb(243, 251, 253);
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 
 }
 
@@ -55,6 +56,7 @@ h3 {
     /* text-align: center; */
     background-color: #3a3e52;
     color: white;
+    
 }
 section > div {
     padding: 0 10px;
