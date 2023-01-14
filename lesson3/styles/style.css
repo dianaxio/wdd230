@@ -84,6 +84,7 @@ body > * {
 /* Global Font Styles */
 h1 {
     font-size: 2.8em;
+    font-family: "ubuntu";
     
 }
 h2 {
@@ -183,6 +184,7 @@ nav a.at, nav a:active, span.navA {
 
 .typo-holder .na{
     color:white;
+    font-size: 2.8em;
 }
 nav a:hover, span.navH {
     background-color: var(--default-light);
