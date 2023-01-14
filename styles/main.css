@@ -29,13 +29,11 @@ footer{
     text-align: center;
     padding: .5em;
     border-radius: .8em;
-    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+    text-shadow: 0 3px 3px rgba(194, 165, 231, 0.5);
     height: 90px;
-    padding-top: 15px;
-    box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
-
-
-
+    padding-top: 46px;
+    box-shadow: 0 3px 3px rgba(16, 17, 17, 0.4);
+    font-size: 1em;;
 }
 
 header{
