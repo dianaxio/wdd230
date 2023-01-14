@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --primary-color: #3A3E52;
+    --secondary-color: #855c7f;
+    --accent1-color: #465281;
+    --accent2-color: #131314;
+    --default-dark: #DDDAE9;
+    
+
+    --header-font: 'Ubuntu', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+}
+
+/* Random styling for html and body */
+html {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}  
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: #3A3E52;
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+
+/* Letras */
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    background-color: #DDDAE9;
+    color: #131314;
+    font-family: "Ubuntu", sans-serif;
+
+}
+body > * {
+    grid-column: 2;
+}
+.shadow-blocker-1, .shadow-blocker-2 {
+    background-image: linear-gradient(to bottom, #8ee4d8, #465281);
+    position: relative;
+    z-index: 24;
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    
+}
+.shadow-blocker-2 {
+    grid-column: 3;
+    
+}
+
+/* Global Font Styles */
+h1 {
+    font-size: 2.8em;
+    
+}
+h2 {
+    font-size: 1.75em;
+    
+}
+h3 {
+    font-size: 1.25em;
+    
+}
+h4 {
+    font-size: 1.1em;
+    
+}
+h1, h2, h3, h4, th {
+    font-family: "Ubuntu", sans-serif;
+    color: #131314;
+
+    
+}
+p, span, div, li, td, a {
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+
+/* Styles for the header and elements inside the header */
+header {
+    z-index: 10;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    color:white;
+    }
+header > span {
+    display: block;
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 1.4em;
+    
+    
+}
+h1 {
+    color: var(--default-light);
+    margin-bottom: 0.75rem;
+}
+nav {
+    position: sticky;
+    top: 0;
+    color: #131314;
+
+    
+}
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 0 0 10px var(#855c7f);
+
+    
+}
+
+nav a {
+    /* It doesn't work to have this one with the other css block */
+    height: calc(100% - 2em);
+}
+nav a, span.navR {
+    z-index: 8;
+    padding: 1em 0;
+    display: block;
+    margin-right: 0;
+    width: calc(100%);
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: #855c7f;
+    box-shadow: 0 0 10px var(#855c7f);
+    
+}
+
+
+nav a.at, nav a:active, span.navA {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    font-weight: bold;
+    padding: 1em 0;
+    z-index: 9;
+    color: white;
+    
+}
+
+.typo-holder .na{
+    color:white;
+}
+nav a:hover, span.navH {
+    background-color: var(--default-light);
+    box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 1em 0;
+    z-index: 7;
+    
+}
+
+/* Styles for the main and the children of main */
+main {
+    padding: 1px 1em;
+    background-color: var(--default-light);
+}
+h2 {
+    color: var(--primary-color);
+}
+h3, h4 {
+    color: var(#855c7f);
+}
+section {
+    padding: 0 1em;
+}
+
+.logo {
+    width: 16%;
+    margin-left: 1px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+}
+
+.logos {
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+table {
+    margin: 0 auto;
+}
+table.more-spacing {
+    margin-left: 0;
+    border-spacing: 10px;
+}
+table.more-spacing th {
+    text-align: right;
+}
+table.more-spacing thead th {
+    text-align: center;
+}
+ul.more-spacing-bottom > li {
+    padding-bottom: 1rem;
+}
+.bgGreen {
+    background-color:#131314;
+   
+}
+
+.bgreen{
+    background-color:#3A3E52
+}
+
+.bgDark {
+    background-color: var(#855c7f);
+}
+.bgBlue {
+    background-color: var(--secondary-color);
+}
+.cGreen {
+    color: var(--primary-color);
+}
+.cWhite {
+    color: white;
+}
+.cDark {
+    color: var(#855c7f);
+    background-color: #465281;
+}
+.cBlue {
+    color: var(--secondary-color);
+}
+h2.typography {
+    text-align: center;
+}
+a {
+    color: var(--primary-color);
+}
+
+#color-scheme-wrapper {
+    display: grid;
+    margin: 5px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.color-scheme {
+    box-shadow: 2px 2px 5px var(#855c7f);
+    border: solid 2px var(--primary-color);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.color-scheme h4 {
+    text-align: center;
+    margin: 1rem 0;
+}
+.s-color {
+    border: solid 1px var(--primary-color);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.s{
+    background: #3A3E52;
+    border: solid 1px var(--primary-color);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#typo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-bottom: 2rem;
+}
+.typo-holder {
+    padding: 0.5rem;
+    border: solid 1px var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px var(--primary-color);
+}
+.typo-holder > span {
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+}
+.typo-holder > span > span {
+    display: block;
+}
+.typo-holder ul {
+    text-align: left;
+    margin: 0;
+    margin-left: 1rem;
+}
+.typo-holder > h2 {
+    color: var(--primary-color);
+    padding: 1rem;
+    margin: 0;
+}
+.typo-holder > h3, .typo-holder > h4 {
+    color: var(--primary-color);
+    padding: 1rem;
+    margin: 0;
+}
+.typo-holder > div {
+    text-align: left;
+}
+.typo-holder h1 {
+    background: var(--primary-color);
+    padding: 1rem;
+    margin: 0;
+    color: var(--default-light);
+}
+span.navF {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: underline var(--secondary-color);
+    padding: 0.5rem;
+}
+span.navFH {
+    background-color: var(--primary-color);
+    color: var(--default-light);
+    text-shadow: 0 0 10px var(--secondary-color);
+    text-decoration: underline var(--secondary-color);
+}
+.typo-holder span.navR {
+    position: static;
+    z-index: 1;
+    
+}
+.typo-holder.more-spacing .bgGreen,
+.typo-holder.more-spacing .bgDark,
+.typo-holder.more-spacing .bgBlue,
+.typo-holder.more-spacing .bgWhite {
+    box-shadow: inset 0 0 0 1px var(--primary-color);
+}
+
+h4 {
+    margin-left: 15px;
+}
+h4 + p {
+    margin-left: 30px;
+}
+
+
+/* Styles for the footer and it's child elements */
+footer {
+    box-shadow: 0 0 10px var(#855c7f);
+    background-color: #3a3e52;
+    font-family: var(--paragraph-font);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    z-index: 10;
+    
+}
+footer a {
+    color: var(--default-light);
+    text-decoration: underline var(--secondary-color);
+}
+footer a:hover {
+    text-shadow: 1px 1px 10px var(--secondary-color);
+}
+.updated {
+    padding-top: 0.5rem;
+    display: block;
+    font-size: 0.9rem;
+    color: var(#FFEFB8);
+}
+
+#too-small {
+    display: none;
+}
+
+/* site map */
