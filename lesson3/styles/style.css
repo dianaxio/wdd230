@@ -120,7 +120,10 @@ header {
     background-color: var(--primary-color);
     box-shadow: 0 0 10px var(--primary-color);
     color:white;
-    }
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+
+
+}
 header > span {
     display: block;
     color: white;
@@ -128,15 +131,19 @@ header > span {
     font-size: 1.4em;
     
     
+    
 }
 h1 {
     color: var(--default-light);
     margin-bottom: 0.75rem;
+    
 }
 nav {
     position: sticky;
     top: 0;
     color: #131314;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+
 
     
 }
@@ -147,6 +154,7 @@ nav > ul {
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     box-shadow: 0 0 10px var(#855c7f);
+    
 
     
 }
@@ -154,6 +162,7 @@ nav > ul {
 nav a {
     /* It doesn't work to have this one with the other css block */
     height: calc(100% - 2em);
+    
 }
 nav a, span.navR {
     z-index: 8;
@@ -166,8 +175,9 @@ nav a, span.navR {
     position: relative;
     text-decoration: none;
     color: white;
-    background-color: #855c7f;
+    background-color: var(--primary-color);
     box-shadow: 0 0 10px var(#855c7f);
+    
     
 }
 
@@ -187,12 +197,14 @@ nav a.at, nav a:active, span.navA {
     font-size: 2.8em;
 }
 nav a:hover, span.navH {
-    background-color: var(--default-light);
+    background-color: #855c7f;
     box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--primary-color);
-    color: var(--primary-color);
+    color: #DDDAE9;
     font-weight: bold;
     padding: 1em 0;
     z-index: 7;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+
     
 }
 
