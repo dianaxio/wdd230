@@ -67,7 +67,7 @@ body > * {
     grid-column: 2;
 }
 .shadow-blocker-1, .shadow-blocker-2 {
-    background-image: linear-gradient(to bottom, #8ee4d8, #465281);
+    background-image: linear-gradient(to bottom, #f5ede3, #f5ca96, #eea9e8, #b947ee);
     position: relative;
     z-index: 24;
     width: 100%;

@@ -37,7 +37,7 @@ section, p, li, a, input, option, select, label, legend { font-family: 'Montserr
 /* HEADER */
 
 html {
-    background-image: linear-gradient(to bottom, #8ee4d8, #465281);
+    background-image: linear-gradient(to bottom, #d3c3b1,  #adaa92, #b4a4b3, #634a5f);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
