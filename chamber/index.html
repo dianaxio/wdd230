@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="favicon (1).ico">
+    <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
@@ -16,7 +16,6 @@
 <body id="afterbegin">
 
     <header>
-        <img id="site-logo" src="./images/fauget.png" alt="logo">
         <h1>Rosario</h1>
         <h2>Chamber of Commerce</h2>
         <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
@@ -35,15 +34,62 @@
     </header> 
     
     <main id="afterend">
-        <section id="hero">Hero with site name and call to action</section>
-        <section id="weather">Weather</section>
-        <section id="join">Join</section>
-        <section id="event">Event</section>
-        <section id="news">News release</section>
+        
+        <section id="hero" ><h3>Welcome to Rosario</h3>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <button class="join-bt"><h4>Join the Chamber</h4></button>
+
+        </section>
+        
+        
+        <section id="event"><h4>Grand Opening</h4>
+            <img src="./images/office-logo.svg" alt="Office" width="75">
+
+            <p>Join us fot the grand opening of the City Center Building new Office Space, Tuesday at 2 p.m<a href="#"> more info...</a></p>
+
+            <!-- main section#spotlight article:nth-child(3) { -->
+
+        </section>
+        <section id="weather"></section>
+        <section id="join">
+            <button class="join-btn">
+            <h4>Join Us!</h4>
+            </button> <a href="/chamber/join.html"></a> 
+            <p>Discover how to join the Rosario Chamber of Commercer and how it will benefit your organization!</p>
+        </section>
+        <section id="news"><h4>News release</h4>
+            <p>November 18th - Newells achieved an agonizing 1-0 away win over Rosario Central in a new edition of the Rosario Derby to remain as the sole leader of Group A of the Argentine Professional Football League Cup.
+                In the closing of Saturday's interzonal day of the classics.
+        </section>
         <section id="spotlight">
-            <article>Spotlight 1</article>
-            <article>Spotlight 2</article>
-            <article>Spotlight 3</article>
+            <article>Logistics & Transport
+                <p>"We make moving easier"</p>
+                <img src="./images/transport-logo.svg" alt="Office" width="60">
+                <p class="division"></p>
+                <span>+54 341 337-9562</span>
+               <p>contactus@transp.com</p>
+
+
+            </article>
+        
+            <article>Legal Services
+                <p>"Best Qualified Law Firm"</p>
+                <img src="./images/lawyer-logo.svg" alt="Logo" width="60">
+
+                    <p class="division"></p>
+                    <p> +54 341 574-8025</p>
+                    <p>lex-legal@gmail.com</p>
+
+
+            </article>
+            <article>Marketing Consulting
+                <p class="division"></p>
+                <img src="./images/mkt-logo.svg" alt="Logo" width="45">
+                <p>+54 341 449-9632</p>
+                <span>consults@mail.com</span>
+
+
+            </article>
         </section>
     </main>
     <footer> 
@@ -67,5 +113,9 @@
 
     </footer>
     <script src="scripts/main.js"></script> 
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+
+
 </body>
 </html>

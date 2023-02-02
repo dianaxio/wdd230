@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="141.54092mm"
+   height="88.090126mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="blue truck.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4243">
+      <stop
+         style="stop-color:#4d4f53;stop-opacity:1;"
+         offset="0"
+         id="stop4245" />
+      <stop
+         style="stop-color:#111111;stop-opacity:1"
+         offset="1"
+         id="stop4247" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4049">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4051" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4053" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3879">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3881" />
+      <stop
+         style="stop-color:#ababab;stop-opacity:1;"
+         offset="1"
+         id="stop3883" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3869">
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="0"
+         id="stop3871" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop3873" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3857">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop3859" />
+      <stop
+         style="stop-color:#979797;stop-opacity:1;"
+         offset="1"
+         id="stop3861" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3845">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3847" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3849" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3837">
+      <stop
+         style="stop-color:#333333;stop-opacity:1;"
+         offset="0"
+         id="stop3839" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3841" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3820">
+      <stop
+         style="stop-color:#eeeeee;stop-opacity:1;"
+         offset="0"
+         id="stop3822" />
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="1"
+         id="stop3824" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3810">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop3812" />
+      <stop
+         style="stop-color:#767676;stop-opacity:1;"
+         offset="1"
+         id="stop3814" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3786">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3788" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="1"
+         id="stop3790" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2998">
+      <stop
+         style="stop-color:#5084d7;stop-opacity:1;"
+         offset="0"
+         id="stop3000" />
+      <stop
+         style="stop-color:#235099;stop-opacity:1;"
+         offset="1"
+         id="stop3002" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2998"
+       id="linearGradient3004"
+       x1="492.45901"
+       y1="561.37744"
+       x2="461.00909"
+       y2="563.93866"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2998"
+       id="linearGradient3782"
+       x1="494.07812"
+       y1="415.57648"
+       x2="452.11246"
+       y2="415.57648"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3786"
+       id="linearGradient3792"
+       x1="481.78571"
+       y1="412.54074"
+       x2="471.98059"
+       y2="412.54074"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3810"
+       id="linearGradient3816"
+       x1="430.83005"
+       y1="417.22876"
+       x2="448.00266"
+       y2="417.22876"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3820"
+       id="linearGradient3826"
+       x1="413.65747"
+       y1="384.14627"
+       x2="451.79074"
+       y2="445.00797"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3843"
+       x1="413.1524"
+       y1="566.22632"
+       x2="439.66888"
+       y2="640.72504"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3857"
+       id="linearGradient3863"
+       x1="425.24408"
+       y1="600.09338"
+       x2="446.2814"
+       y2="633.37061"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3869"
+       id="radialGradient3875"
+       cx="428.05215"
+       cy="599.68756"
+       fx="410.60748"
+       fy="580.42737"
+       r="30.809652"
+       gradientTransform="matrix(1,0,0,1.3237705,0,-194.16113)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3879"
+       id="linearGradient3885"
+       x1="334.86557"
+       y1="417.48129"
+       x2="15.657371"
+       y2="484.65643"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3907">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.5951963"
+         id="feGaussianBlur3909" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3919"
+       gradientUnits="userSpaceOnUse"
+       x1="413.1524"
+       y1="566.22632"
+       x2="439.66888"
+       y2="640.72504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3857"
+       id="linearGradient3921"
+       gradientUnits="userSpaceOnUse"
+       x1="425.24408"
+       y1="600.09338"
+       x2="446.2814"
+       y2="633.37061" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3869"
+       id="radialGradient3923"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3237705,0,-194.16113)"
+       cx="428.05215"
+       cy="599.68756"
+       fx="410.60748"
+       fy="580.42737"
+       r="30.809652" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3955"
+       gradientUnits="userSpaceOnUse"
+       x1="413.1524"
+       y1="566.22632"
+       x2="439.66888"
+       y2="640.72504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3857"
+       id="linearGradient3957"
+       gradientUnits="userSpaceOnUse"
+       x1="425.24408"
+       y1="600.09338"
+       x2="446.2814"
+       y2="633.37061" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3869"
+       id="radialGradient3959"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3237705,0,-194.16113)"
+       cx="428.05215"
+       cy="599.68756"
+       fx="410.60748"
+       fy="580.42737"
+       r="30.809652" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3976"
+       gradientUnits="userSpaceOnUse"
+       x1="413.1524"
+       y1="566.22632"
+       x2="439.66888"
+       y2="640.72504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3857"
+       id="linearGradient3978"
+       gradientUnits="userSpaceOnUse"
+       x1="425.24408"
+       y1="600.09338"
+       x2="446.2814"
+       y2="633.37061" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3869"
+       id="radialGradient3980"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3237705,0,-194.16113)"
+       cx="428.05215"
+       cy="599.68756"
+       fx="410.60748"
+       fy="580.42737"
+       r="30.809652" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3837"
+       id="linearGradient3982"
+       gradientUnits="userSpaceOnUse"
+       x1="413.1524"
+       y1="566.22632"
+       x2="439.66888"
+       y2="640.72504" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3857"
+       id="linearGradient3984"
+       gradientUnits="userSpaceOnUse"
+       x1="425.24408"
+       y1="600.09338"
+       x2="446.2814"
+       y2="633.37061" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3869"
+       id="radialGradient3986"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3237705,0,-194.16113)"
+       cx="428.05215"
+       cy="599.68756"
+       fx="410.60748"
+       fy="580.42737"
+       r="30.809652" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4243"
+       id="linearGradient4249"
+       x1="428.92856"
+       y1="387.54077"
+       x2="428.92856"
+       y2="447.89792"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="573.62833"
+     inkscape:cy="118.83223"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.400925,-333.1378)">
+    <path
+       style="opacity:0.33760687;fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 265.41758,602.08669 c 1.26269,0 30.30458,-2.02031 30.30458,-2.02031 l -3.53554,2.77792 136.3706,39.14341 59.85154,2.77792 80.8122,-17.93021 -16.66752,-11.61675 -272.48865,-62.37692 -157.83633,-1.26269 -25.758892,5.80837 14.899752,3.78808 107.83378,25.50635 c 0,0 4.54569,-3.78807 7.07107,-2.52538 2.52538,1.26269 21.71828,4.79822 21.71828,4.79822 z"
+       id="path3998"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865"
+       sodipodi:nodetypes="ccccccccccccscc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4047"
+       d="m 117.37627,565.80927 13.24586,-0.95388 c 5.32286,-2.77186 6.83595,-20.20908 5.27915,-36.60516 l -13.62981,-0.17885 z"
+       style="fill:#050505;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4041"
+       d="m 428.17771,639.50061 30.16815,-3.11256 c 18.16571,-8.01226 28.17607,-37.83288 19.0873,-69.72596 l -36.23977,-0.34686 z"
+       style="fill:#050505;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.39286,518.57647 0.17857,35.17857 255.71429,48.39286 90.71428,20.71428 40.35714,-1.25 85.89286,-14.82143 -134.10714,-72.5 -126.78572,-13.75 -192.32143,-15.53571 z"
+       id="path4037"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#050505;fill-opacity:1;stroke:none"
+       d="m 261.25,602.63004 29.96639,-1.42857 c 12.04204,-4.15126 15.46512,-30.26596 11.94314,-54.82143 l -30.835,-0.26786 z"
+       id="path4039"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 221.67211,545.49968 -7.91707,-0.31122 0.33417,21.92169 7.32632,0.15058 z"
+       id="path4028"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 277.66568,583.52513 34.97653,-0.88388 -2.14657,-34.34519 c 0,0 3.4435,-17.95884 -50.00255,-11.61675 -14.15701,6.46987 -20.63874,21.87096 -16.28871,49.87628 l 3.55166,-0.27214 c -8.88507,-37.97755 23.2887,-71.46836 29.90964,-2.75832 z"
+       id="path4015"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 335.37065,333.89119 20.70812,-0.25254 66.16499,18.68782 -2.0203,187.3833 -86.36804,-2.02031 z"
+       id="path3887"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3889"
+       d="m 352.30412,357.86737 18.25094,-0.22258 58.31402,16.47037 -1.78058,165.14886 -76.11982,-1.78059 z"
+       style="fill:#666666;stroke:none;stroke-width:0.88134247px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3907)"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3911"
+       width="221.2234"
+       height="16.667517"
+       x="358.60416"
+       y="512.43567"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <g
+       id="g3993"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <ellipse
+         transform="translate(-0.75761438,-1.0101525)"
+         id="path3835"
+         style="fill:url(#linearGradient3843);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         style="fill:url(#linearGradient3863);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3853"
+         transform="matrix(0.62229101,0,0,0.62229101,160.92153,225.49723)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         transform="matrix(0.37638937,0,0,0.37638937,266.18026,372.96139)"
+         id="path3865"
+         style="fill:url(#radialGradient3875);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+    </g>
+    <g
+       id="g4006"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4000"
+         d="m 349.76532,556.88236 c -1.26269,-0.25254 -32.32488,-5.80838 -32.32488,-5.80838 l -16.66752,5.05076 -0.25254,25.00128 6.31346,10.6066 38.63833,8.5863 z"
+         style="opacity:1;fill:#999999;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4002"
+         d="m 324.25897,552.84175 c 0.25201,0.0707 -15.84513,-3.06184 -18.18275,11.36421 l 0.50508,18.43529 7.57614,10.6066"
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 342.25897,555.57906 c 0.25201,0.0707 -15.84513,-1.79915 -18.18275,12.6269 l 0.50508,18.43529 7.57614,10.6066"
+         id="path4004"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <path
+       style="opacity:1;fill:url(#linearGradient3004);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.78571,559.86218 -17.5,-2.14286 0,37.50001 56.42858,15.35714 c 0.89524,-30.5095 0.83143,-64.52887 12.85713,-65.35714 l 39.28572,2.85714 c 6.02814,22.63934 14.02547,45.03253 12.85715,68.57143 L 485,615.93361 l 6.78571,9.28571 91.42858,-14.99999 c 11.93757,-28.33334 4.99964,-56.66667 6.78571,-85 l -100,2.85714 -137.85715,-3.21428 z"
+       id="path2996"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="opacity:1;fill:url(#linearGradient3782);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 358.57143,359.50504 -4.28572,148.57143 3.21429,7.14285 223.57143,2.85715 4.64286,-7.14286 0.71428,-42.5 -117.14285,-10 -6.42858,-6.42857 1.42858,-80 8.57142,-6.78572 107.5,23.57143 -1.42857,-10.71428 -25.35714,-15.35715 -90,-24.64285 -78.21429,20.71428 z"
+       id="path3006"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:url(#linearGradient3792);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 580.17857,389.32647 6.60715,80 -116.60715,-10.53572 -7.14285,-6.42857 1.42857,-80.53571 8.03571,-6.78572 z"
+       id="path3784"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 493.20698,528.09301 c 0,0 -0.25254,47.22463 0.75762,47.22463 1.01015,0 14.89975,-0.50507 14.89975,-1.51523 0,-1.01015 -2.77792,-45.45686 -2.77792,-45.45686 z"
+       id="path3796"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 580.0801,525.56763 -1.51523,40.15356 10.10153,-1.01015 -1.26269,-38.89087 z"
+       id="path3798"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.11114883px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 520.73363,527.56133 c 1.01016,1.55899 -0.25253,57.67808 -0.25253,57.67808 l 51.77032,-5.71722 -0.46176,-54.1781 z"
+       id="path3800"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 536.89608,590.21739 0.50507,9.84899 22.72844,-3.283 -0.25254,-9.34391 z"
+       id="path3802"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:url(#linearGradient3826);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 406.83894,383.13612 -1.76777,64.64976 47.72971,-2.27284 1.26269,-72.22591 z"
+       id="path3818"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <g
+       id="g4251">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4241"
+         d="m 431.96429,386.46935 -4.46429,0.89285 0,54.46429 c 3.93135,8.56429 12.27844,5.77381 19.28572,6.42857 z"
+         style="fill:url(#linearGradient4249);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="53.835865"
+         inkscape:export-xdpi="53.835865"
+         inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3804"
+         d="m 432.59783,386.92419 -1.26269,54.54824 c 3.0553,7.566 15.82534,6.06193 15.40482,6.06092 l 1.26269,-58.33631 z"
+         style="fill:url(#linearGradient3816);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.655375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 438.93666,402.58155 24.21828,3.03046"
+       id="path3806"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 404.31356,375.55998 55.55839,-13.13199 c -3.6911,48.39294 -2.94755,97.41941 -2.02031,146.47212 l 4.79823,7.82868 -57.5787,-1.01015 -3.53553,-7.07107 c -1.72826,-44.36253 -0.19097,-88.72506 2.77792,-133.08759 z"
+       id="path3828"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+       id="rect3833"
+       width="14.647212"
+       height="3.0304575"
+       x="390.94049"
+       y="462.85822"
+       transform="matrix(0.99955824,-0.02972082,0.02972082,0.99955824,0,0)"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#050505;fill-opacity:1;stroke:none"
+       d="m 132.87119,569.93554 15.25933,-1.09888 c 6.13197,-3.1932 7.87506,-23.281 6.08162,-42.16941 l -15.70164,-0.20604 z"
+       id="path4045"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4021"
+       d="m 125.0073,549.44075 14.686,-0.48641 -0.9013,-18.90081 c 0,0 1.44585,-9.88309 -20.99515,-6.39292 -5.94427,3.56048 -8.66583,12.03601 -6.83932,27.44787 l 1.49128,-0.14976 c -3.7307,-20.89979 9.77849,-39.33041 12.55849,-1.51797 z"
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:0.4806962px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <g
+       id="g3961"
+       transform="matrix(0.9453592,0,0,0.9453592,6.9270418,28.889365)"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <ellipse
+         style="fill:url(#linearGradient3982);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3937"
+         transform="matrix(0.22501649,0,0,0.5341811,37.38804,230.15888)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         transform="matrix(0.14002574,0,0,0.3324161,73.768512,351.15484)"
+         id="path3939"
+         style="fill:url(#linearGradient3984);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         style="fill:url(#radialGradient3986);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3941"
+         transform="matrix(0.08469382,0,0,0.20106009,97.45347,429.92741)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+    </g>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4043"
+       d="m 150.87119,573.61989 15.25933,-1.09888 c 6.13197,-3.1932 7.87506,-23.281 6.08162,-42.16941 l -15.70164,-0.20604 z"
+       style="fill:#050505;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:0.4806962px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.41213,551.71359 14.686,-0.48641 -0.9013,-18.90081 c 0,0 1.44585,-9.88309 -20.99515,-6.39292 -5.94427,3.56048 -8.66583,12.03601 -6.83932,27.44787 l 1.49128,-0.14976 c -3.7307,-20.89979 9.77849,-39.33041 12.55849,-1.51797 z"
+       id="path4019"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <g
+       id="g3966"
+       transform="matrix(0.9726796,0,0,0.9726796,3.9464819,14.513677)"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <ellipse
+         transform="matrix(0.22501649,0,0,0.5341811,55.06571,232.68426)"
+         id="path3925"
+         style="fill:url(#linearGradient3976);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         style="fill:url(#linearGradient3978);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3927"
+         transform="matrix(0.14002574,0,0,0.3324161,91.446182,353.68022)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         transform="matrix(0.08469382,0,0,0.20106009,115.13114,432.45279)"
+         id="path3929"
+         style="fill:url(#radialGradient3980);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+    </g>
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4017"
+       d="m 158.96955,555.60931 16.30513,-0.54004 -1.00067,-20.98462 c 0,0 1.60526,-10.97269 -23.30985,-7.09773 -6.59963,3.95302 -9.62124,13.36297 -7.59336,30.47398 l 1.65569,-0.16627 c -4.142,-23.20398 10.85657,-43.66657 13.94306,-1.68532 z"
+       style="opacity:1;fill:#4d4d4d;stroke:#000000;stroke-width:0.53369278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <path
+       style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 169.3125,526.0625 -2.5,0.65625 0,13.875 -5.25,-0.21875 c 0,0 -0.66133,5.53252 -0.15625,5.40625 0.50508,-0.12627 2.56377,-0.16133 2.4375,0.34375 -0.12627,0.50507 -0.0625,7.09375 -0.0625,7.09375 l -3.125,-0.375 -0.40625,5.9375 53.65625,7.5625 -0.25,-21.78125 c -0.12627,-1.26269 0,-14.96875 0,-14.96875 l -3.65625,0 L 210.75,545 169.46875,540.84375 169.3125,526.0625 Z m -1,20.375 c 0,0 38.27618,3.87247 38.78125,4.125 0.50508,0.25254 0.75,8.84375 0.75,8.84375 l -39.40625,-5.6875 -0.125,-7.28125 z"
+       id="path4025"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:url(#linearGradient3885);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 89.903577,524.55748 c 3.030457,0 243.951843,12.12183 243.951843,12.12183 L 335.37065,334.6488 90.408653,429.09806 Z"
+       id="path3877"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865" />
+    <g
+       id="g3988"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <ellipse
+         style="fill:url(#linearGradient3919);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3913"
+         transform="matrix(0.47091813,0,0,0.69040247,59.408534,160.40797)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         transform="matrix(0.29304812,0,0,0.42963126,135.54617,316.78923)"
+         id="path3915"
+         style="fill:url(#linearGradient3921);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         style="fill:url(#radialGradient3923);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3917"
+         transform="matrix(0.17724858,0,0,0.25986015,185.11442,418.59885)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+    </g>
+    <g
+       id="g3971"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-ydpi="53.835865">
+      <ellipse
+         transform="matrix(0.19828168,0,0,0.47071361,33.108495,264.36834)"
+         id="path3949"
+         style="fill:url(#linearGradient3955);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         style="fill:url(#linearGradient3957);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path3951"
+         transform="matrix(0.12338891,0,0,0.29292085,65.166505,370.98844)"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+      <ellipse
+         transform="matrix(0.07463112,0,0,0.1771716,86.037389,440.40183)"
+         id="path3953"
+         style="fill:url(#radialGradient3959);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         cx="428.05215"
+         cy="599.68756"
+         rx="30.809652"
+         ry="40.784908" />
+    </g>
+    <path
+       inkscape:export-ydpi="53.835865"
+       inkscape:export-xdpi="53.835865"
+       inkscape:export-filename="D:\axd3355\Mes Documents\Mes titres\TMO 2\images\camion.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4255"
+       d="m 438.93666,442.58155 24.21828,3.03046"
+       style="fill:none;stroke:#000000;stroke-width:5.655375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

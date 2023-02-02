@@ -79,7 +79,7 @@
 
     main {
         display: grid !important;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, auto);
         gap: 0 .5rem;
     }
@@ -100,25 +100,52 @@
 
     main section#hero {
         grid-row: 1 / 2;
+        font-size: 0.9em;
+
     }
 
     main section#news {
         grid-row: 2 / 3;
+        font-size: 0.9em;
+
+        
+        
     }
 
     main section#join {
         display: block;
         grid-row: 4 / 5;
+        font-size: 0.9em;
+
+    }
+
+    /* .join h4 {
+        margin-bottom: -20%;
+
+    } */
+
+    .join-btn {
+        width: 55%;
+        margin-top: 4%;
+        height: 25%;
+
     }
 
     main section#event {
         grid-column: 1 / 5;
         grid-row: 5 / 6;
+        font-size: 0.9em;
+
+
     }
 
     main section#weather {
         grid-column: 5 / 7;
         grid-row: 5 / 6;
+        font-family: "Ubuntu", Sans-serif;
+        background-color: rgb(187, 170, 170);
+        font-size: 0.9em;
+       
     }
 
     main section#spotlight {
@@ -126,10 +153,18 @@
         grid-template-columns: 1fr 1fr;
         gap: .5rem;
         grid-row: 3 / 4;
+        height: 82%;
     }
+
+    /* main section p {
+        padding-top: 20px;
+        text-align: justify;
+    } */
 
     main section#spotlight article:nth-child(3) {
         display: none;
+        text-align: center;
+
     }
 
     /* DISCOVER PAGE */
@@ -232,6 +267,8 @@
 
     section, .hero, .weather, .join, .event, .news, .spotlight {
         font-family: "Ubuntu", Sans-serif;
+        text-align: center;
+
 
     }
 
