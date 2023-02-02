@@ -23,15 +23,6 @@ section, p, li, a, input, option, select, label, legend { font-family: 'Montserr
     
 }
 
-/* color black spotlight lyrics */
-.news, h4, p {
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-}
-
-
-
 .banner {
     background-color: var(--secondary-dark-color);
     color: var(--dark-text-color);
@@ -53,6 +44,13 @@ html {
     background-size: cover;
 }
 
+/* header nav, .primaryNav {
+       
+    background-color: var(--primary-dark-color);
+    color: var(--primary-dark-color);
+    font-family: "ubuntu", Sans-serif;
+} */
+
 header {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -67,6 +65,7 @@ header {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.11);
     z-index: 10;
     height: 200%;
+
 }
 
 header h1 {
@@ -75,7 +74,9 @@ header h1 {
     margin: 0;
     align-self: end;
 
+
     font-size: 1.8em;
+    
 
 }
 
@@ -83,7 +84,9 @@ header h2 {
     grid-column: 5/ 16;
     grid-row: 2 / 3;
     margin: 0;
+    
 }
+
 
 header #facebook-logo {
     grid-column: 11 / 13;
@@ -105,7 +108,7 @@ header #linkedin-logo {
 
 header #site-logo {
     grid-column: 1 / 5;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     border-radius: 50%;
     object-fit: cover;
     width: 100%;
@@ -162,13 +165,16 @@ nav ul li {
 
 nav ul li a:hover {
     background-color: var(--secondary-dark-color);
-    color: var(--light-text-color);}
+    color: var(--light-text-color);
+    
+}
 
 nav ul li a {
     padding: .5rem;
     align-self: center;
     text-decoration: none;
     color: var(--light-text-color);
+    
 }
 
 .mapa {
@@ -190,6 +196,8 @@ main section {
     background-color: lightgray;
     color: var(--light-text-color);
     height: 200px;
+    color: black
+
 }
 
 main section article {
@@ -197,8 +205,10 @@ main section article {
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: lightgray;
     height: calc(100px - 2rem);
+    color: black;
 
 }
+
 
 main h1 {
     text-align: center;
@@ -217,8 +227,11 @@ main section#hero {
 }
 
 main section#join {
+    /* background-image: url('../images/fauget.png'); */
     display: none;
+    color: black;
     text-align: center;
+    
 }
 
 section#hero h4 {
@@ -226,6 +239,7 @@ section#hero h4 {
     font-size: 1.7em;
     margin-top: 7px;
     font-family: "Ubuntu", Sans-serif;
+    color: black;
 
 
 
@@ -298,6 +312,7 @@ section#event h4 {
 
 main section#event {
   /* background-image: url('../images/fauget.png'); */
+  color: black;
   text-align: center;
 
   
@@ -316,71 +331,60 @@ main section#weather {
     grid-template-rows: repeat(6, auto);
     align-items: center;
     color: black;
+
 }
 
 main section#weather h3 {
     grid-column: 1 / -1;
     text-align: center;
     margin: .5rem 0;
-
+    
 }
 
 main section#weather img {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     justify-self: center;
+    
 }
 
 main section#weather p {
     grid-column: 1 / -1;
     text-align: center;
     margin: .5rem 0;
+    
 }
 
 main section#spotlight article:nth-child(3) {
-    display: none;
-    font-family: "Ubuntu", Sans-serif;
-
-    
+  display: none;
+  color: black;
+  text-align: center;
+  
 
 }
 
 main section#spotlight article:nth-child(2) {
     color: black;
     text-align: center;
-    font-family: "Ubuntu", Sans-serif;
-    height: 85%;
-
+    
 
 }
 
 main section#spotlight article:nth-child(1) {
   color: black;
   text-align: center;
-  font-family: "Ubuntu", Sans-serif;
-  height: 85%;
- 
   
 
 
 }
 
-main section#spotlight {
-    display: grid;
-    gap: .5rem;
-    grid-row: 4 / 4;
-    height: 82%;
-    color:black;
-    font-family: "Ubuntu", Sans-serif;
-
-
-}
 /* DISCOVER PAGE */
 
 aside#population ul, li{
     font-family: "Ubuntu", sans-serif;
 
 }
+
 
 main section#discover {
     padding: 0;
@@ -392,13 +396,11 @@ main section#discover {
     
 }
 
-#today {
-    color: white;
-
-}
-
 main section#discover h1 {
     text-align: center;
+    
+    
+    
 }
 
 main section#discover picture {
@@ -406,6 +408,9 @@ main section#discover picture {
     grid-template-columns: 1fr;
     margin: 1rem 0;
     min-height: 300px;
+    
+
+    
 }
 
 main section#discover picture img {
@@ -414,6 +419,7 @@ main section#discover picture img {
     min-height: 300px;
     background-color: lightgray;
     object-fit: cover;
+    
 }
 
 img[data-src] {
@@ -427,7 +433,7 @@ img {
 
 img:not([src]) {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -475,7 +481,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 form label input:required {
@@ -510,7 +516,6 @@ main div.cards section {
 
 main div.cards section p {
     margin: .5rem;
-    
 }
 
 main div.cards section h2 {
@@ -529,13 +534,14 @@ footer {
     background-color: #3A3E52;
     color: var(--light-text-color);
     padding: 0 .5rem;
-}
 
+}
 #mapa {
     color:white;
     text-decoration: none;
     font-family: "Ubuntu", Sans-serif;        
 }
+
 
 footer div {
     justify-self: stretch;
@@ -543,6 +549,8 @@ footer div {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
+    
+    
 }
 
 footer img {
@@ -552,60 +560,11 @@ footer img {
     width: 30%;
     border-radius: 50%;
     margin: .75rem;
-}
-
-#year, #rosario {
-    color:white;
-}
-
-footer h4 {
     
-    color: white;
-
-}
-
-footer p#address {
-    
-    color: white;
-
-
-}
-footer p#email {
-    
-    color: white;
-
-
-}
-
-
-footer div {
-   
-    color: white;
-
-}
-
-footer div :nth-child(3) {
-    
-    color: white;
-
     
 }
-
-footer div p:nth-child(5) {
-    
-    color: white;
-
-
-}
-
-footer div p:nth-child(7) {
-  
-    color: white;
-
-
-}
-
 
 .separation {
     display: none;
+    
 }

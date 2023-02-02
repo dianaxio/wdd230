@@ -7,15 +7,13 @@
         grid-row: 1 / 2;
         margin: 0;
         align-self: center;
-        
-
     }
 
     header h2 {
         grid-column: 4 / 16;
         grid-row: 2 / 3;
         margin: 0;
-        
+
     }
 
     header #facebook-logo {
@@ -56,7 +54,6 @@
         width: 50px;
         padding: .5rem;
         cursor: pointer;
-        
     }
 
     header p {
@@ -79,7 +76,7 @@
 
     main {
         display: grid !important;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(5, auto);
         gap: 0 .5rem;
     }
@@ -100,42 +97,48 @@
 
     main section#hero {
         grid-row: 1 / 2;
-        font-size: 0.9em;
-
+        font-size: 1.5em;
+        text-align: left;
+        font-family: "Ubuntu", Sans-serif;
+        
     }
 
     main section#news {
         grid-row: 2 / 3;
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
+        color:black;
 
-        
-        
+
     }
 
     main section#join {
         display: block;
         grid-row: 4 / 5;
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
 
     }
 
-    /* .join h4 {
-        margin-bottom: -20%;
-    } */
+    /* PG MD*/
+    .join-bt {
+        text-align: center;
 
-    .join-btn {
-        width: 55%;
-        margin-top: 4%;
-        height: 25%;
+        
 
     }
-    
+
+        /* PG MD*/
+
+    #j h4 {
+        
+        text-align: center;
+
+
+    }
 
     main section#event {
         grid-column: 1 / 5;
         grid-row: 5 / 6;
-        font-size: 0.9em;
-
+        /* font-size: 0.9em; */
 
     }
 
@@ -144,40 +147,31 @@
         grid-row: 5 / 6;
         font-family: "Ubuntu", Sans-serif;
         background-color: rgb(187, 170, 170);
-        font-size: 0.9em;
-       
+        /* font-size: 0.9em; */
     }
 
-
-    /*  Aqui hay un ajuste no se si esta bien o mal
-    quizas esto daño el anterior website */
     main section#spotlight {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: .5rem;
         grid-row: 3 / 4;
         height: 82%;
-    }
+        color:black;
+        font-family: "Ubuntu", Sans-serif;
 
-    /* main section p {
-        padding-top: 20px;
-        text-align: justify;
-    } */
+
+    }
 
     main section#spotlight article:nth-child(3) {
         display: none;
-        /* ESTO esta demás */
-        text-align: center;
-        
-
-    }
-
-    main #afterend{
         color:black;
+        font-family: "Ubuntu", Sans-serif;
+
+
+
     }
 
     /* DISCOVER PAGE */
-
     aside#population ul, li{
         font-family: "Ubuntu", sans-serif;
     
@@ -266,15 +260,19 @@
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: repeat(6, auto);
-        
     }
-
     #year, p, span {
         font-family: "Ubuntu", Sans-serif;
-
     }
 
-    section, .hero, .weather, .join, .event, .news, .spotlight {
+    #year, #rosario1, #rosario2, #rosario3 {
+        color:white;
+    }
+
+
+       
+
+    section, .weather, .join, .event, .news, .spotlight {
         font-family: "Ubuntu", Sans-serif;
         text-align: center;
 
@@ -293,6 +291,8 @@
         text-align: center;
         align-self: end;
         margin: 0;
+        color: white;
+
     }
 
     footer p#address {
@@ -301,18 +301,20 @@
         align-self: start;
         margin: 0;
         font-family: "Ubuntu", Sans-serif;
+        color: white;
+
 
     }
-
     footer p#email {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
         align-self: end;
         margin: 0;
         font-family: "Ubuntu", Sans-serif;
+        color: white;
+
 
     }
-
     footer p.division {
         grid-column: 1 / -1;
         grid-row: 4 / 5;
@@ -320,15 +322,35 @@
         
     }
 
+    footer p#phoneNumber {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        align-self: end;
+        margin: 0;
+        color: white;
+
+    }
+
+    footer p.division {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+    }
+
     footer p#map {
         align-self: start;
         margin: 0;
+        color: white;
+
     }
+
     #mapa {
         color:white;
         text-decoration: none;
-        font-family: "Ubuntu", Sans-serif;        
+        font-family: "Ubuntu", Sans-serif;
+        color: white;
+        
     }
+
 
     footer div {
         grid-column: 1 / -1;
@@ -338,32 +360,37 @@
         grid-template-rows: auto;
         text-align: center;
         font-family: "Ubuntu", Sans-serif;
+        color: white;
 
     }
 
     footer div :nth-child(3) {
         grid-column: 3/ 4;
         grid-row: 1 / 2;
-        font-family: "Ubuntu", Sans-serif;
+        color: white;
 
+        
     }
 
     footer div p:nth-child(5) {
         grid-column: 5 / 6;
         grid-row: 1 / 2;
         font-family: "Ubuntu", Sans-serif;
+        color: white;
+
 
     }
 
     footer div p:nth-child(7) {
         grid-column: 1 / -1;
         font-family: "Ubuntu", Sans-serif;
+        color: white;
+
 
     }
 
     .separation {
         display: inline;
         margin: 0 .5rem;
-        
     }
 }
