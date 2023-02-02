@@ -30,6 +30,8 @@ section, p, li, a, input, option, select, label, legend { font-family: 'Montserr
     text-align: center;
 }
 
+
+
 .banner {
     background-color: var(--secondary-dark-color);
     color: var(--dark-text-color);
@@ -303,7 +305,7 @@ main section#event {
 }
 
 section #Logo{
-    padding-right: 55%;x
+    padding-right: 55%;
 }
 
 
@@ -339,14 +341,16 @@ main section#spotlight article:nth-child(3) {
     display: none;
     font-family: "Ubuntu", Sans-serif;
 
+    
+
 }
 
 main section#spotlight article:nth-child(2) {
     color: black;
     text-align: center;
     font-family: "Ubuntu", Sans-serif;
+    height: 85%;
 
-    
 
 }
 
@@ -354,9 +358,23 @@ main section#spotlight article:nth-child(1) {
   color: black;
   text-align: center;
   font-family: "Ubuntu", Sans-serif;
+  height: 85%;
+ 
+  
+
 
 }
 
+main section#spotlight {
+    display: grid;
+    gap: .5rem;
+    grid-row: 4 / 4;
+    height: 82%;
+    color:black;
+    font-family: "Ubuntu", Sans-serif;
+
+
+}
 /* DISCOVER PAGE */
 
 aside#population ul, li{
@@ -492,6 +510,7 @@ main div.cards section {
 
 main div.cards section p {
     margin: .5rem;
+    
 }
 
 main div.cards section h2 {
@@ -534,6 +553,58 @@ footer img {
     border-radius: 50%;
     margin: .75rem;
 }
+
+#year, #rosario {
+    color:white;
+}
+
+footer h4 {
+    
+    color: white;
+
+}
+
+footer p#address {
+    
+    color: white;
+
+
+}
+footer p#email {
+    
+    color: white;
+
+
+}
+
+
+footer div {
+   
+    color: white;
+
+}
+
+footer div :nth-child(3) {
+    
+    color: white;
+
+    
+}
+
+footer div p:nth-child(5) {
+    
+    color: white;
+
+
+}
+
+footer div p:nth-child(7) {
+  
+    color: white;
+
+
+}
+
 
 .separation {
     display: none;

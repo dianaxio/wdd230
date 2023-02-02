@@ -118,10 +118,19 @@
 
     }
 
+    /* MODIFICA PAG GRAND Y MEDIANA */
     .join-btn {
-        width: 55%;
+        width: 75%;
         margin-top: 4%;
-        height: 25%;
+
+    }
+
+        /* MODIFICA PAG MED */
+
+    #j h4 {
+        
+        text-align: center;
+
 
     }
 
