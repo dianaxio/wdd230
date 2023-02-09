@@ -1,269 +1,134 @@
-@media (min-width: 50em) {
-
-    
-    header #site-logo {
-        grid-column: 1 / 3;
-    }
-
-    header h1 {
-        grid-column: 3 / 6;
-        grid-row: 1 / 2;
-        margin: 0;
-        padding-top: .5rem;
-        align-self: center;
-        font-family: "Ubuntu", Sans-serif;
-
-    }
-    
-    header h2 {
-        grid-column: 3 / 6;
-        grid-row: 2 / 3;
-        margin: 0;
-        font-size: medium;
-        font-family: "Ubuntu", Sans-serif;
-
-    }
-
-    header nav {
-        grid-column: 6 / 14;
-        grid-row: 1 / 3;
-        align-self: center;
-        background-color: var(--primary-dark-color);
-        color: var(--primary-dark-color);
-        font-size: 1.1em;  
-    }
-
-    nav a.at, nav a:active, span.navA {
-        background-color: var(--primary-dark-color);
-        box-shadow: 0 0 50px var(--primary-dark-color);
-        font-weight: bold;
-        color: #FFFFFF;
-        font-size: 1em;
-        
-    }
-
-    nav.open ul {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    nav ul li a {
-        background-color: var(--primary-dark-color);
-        font-weight: bold;
-        font-family: "Ubuntu", Sans-serif;    
-    }
-
-    header nav ul {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: .5rem;
-        justify-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    nav ul li a {
-        color: var(--dark-text-color);
-    }
-
-    nav ul li:hover {
-        cursor: pointer;
-    }
-
-    nav.open ul {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        text-align: center;
-    }
-
-    header #facebook-logo {
-        grid-column: 14 / 15;
-        grid-row: 1 / 3;
-        object-fit: cover;
-        width: 50%;
-        align-self: center;
-        justify-self: end;
-    }
-    
-    header #linkedin-logo {
-        grid-column: 15 / 16;
-        grid-row: 1 / 3;
-        object-fit: cover;
-        width: 50%;
-        align-self: center;
-        justify-self: center;
-    }
+@media only screen and (min-width: 60em) {
 
     header button {
         display: none;
-        font-family: "Ubuntu", Sans-serif;
-
     }
 
-    header p {
-        grid-column: 1 / -1;
-        grid-row: 3 / 4;
-        margin: .5rem;
-        padding: .5rem;
-        background-color: rgba(0, 0, 0, 0.3);
-        text-align: center;
-        font-family: "Ubuntu", Sans-serif;
-
+    .social img {
+        padding: 4px;
     }
-
-    main {
-        display: grid;
-        grid-template-columns: .3fr 1fr 2fr 1fr .3fr;
-        grid-template-rows: repeat(3, auto);
-    }
-
-    /* HOME PAGE */
-
-    main section#event {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        font-family: "Ubuntu", Sans-serif;
-        font-size: 0.8em;
-    }
-
-
-    main section#hero {
-        grid-column: 3 / 4;
-        grid-row: 1 / 3;
-        height: calc(200px * 2 + 58px);
-        font-family: "Ubuntu", Sans-serif;
-
-    }
-
-    main section#spotlight {
-        grid-column: 4 / 5;
-        grid-row: 1 / 4;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: .5rem;
-        height: calc(200px * 3 + (58px * 2));
-        font-family: "Ubuntu", Sans-serif;
-        text-align: center;
-        color:black;
-    }
-
-    /* PG GR */
-    main section#weather {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-        font-family: "Ubuntu", Sans-serif;
-        background-color: rgb(187, 170, 170);
-        font-size: 0.8em;
-    }
-
-
     
-    main section#join {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    
-
-    main section#news {
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-        font-family: "Ubuntu", Sans-serif;
-        text-align: center;
-
-        
+    .main-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0.5rem;
     }
 
-    main section#spotlight article:nth-child(3) {
+    .event,
+    .weather,
+    .join {
+        grid-column: 1;
+    }
+
+    .event {
+        grid-row: 1;
+    }
+
+    .event p {
+        font-size: 0.75rem;
+    }
+
+    .weather {
+        grid-row: 2;
+    }
+
+    .join {
+        grid-row: 3;
+    }
+
+    .join-btn {
+        width: 90%;
+    }
+
+    .hero,
+    .news {
+        grid-column: 2/4;
+    }
+
+    .hero {
+        grid-row: 1/3;
+    }
+
+    .hero h3 {
+        width: 80%;
+        top: 18px;
+        left: 18px;
+    }
+
+    .spotlights-container {
+        grid-column: 4;
+        grid-row: 1/4;
+        flex-direction: column;
+        height: 99.1%;
+    }
+
+    .spotlight:nth-child(3) {
         display: block;
-        font-size: 0.9em;
-        height: 85%;
-        font-family: "Ubuntu", Sans-serif;
-
-
-
     }
 
-    
-    main section#spotlight article:nth-child(2) {
-        display: block;
-        font-size: 0.9em;
-        height: 85%;
-        color:black;
-        font-family: "Ubuntu", Sans-serif;
-
-
-
+    .spotlight {
+        height: 190px;
     }
 
-    
-    main section#spotlight article:nth-child(1) {
-        display: block;
-        font-size: 0.9em;
-        height: 85%;
-        font-family: "Ubuntu", Sans-serif;
-        color: black;
-
-
+    .spotlight p {
+        font-size: .8rem;
     }
 
-    
-    #year, p, span {
-        font-family: "Ubuntu", Sans-serif;
-
+    footer {
+        margin: 1rem auto 0;
     }
 
-    /* DISCOVER PAGE */
-
-    /* aside#population ul, li{
-        font-family: "Ubuntu", sans-serif;
-
-    } */
-
-    main section#discover {
-        grid-column: 3 / 4;
+    .visits {
+        font-size: 1.1rem;   
     }
 
-    main section#discover picture img:hover {
-        opacity: .5;
-        box-shadow: 0 0 50px #333;
+    .image-gallery h3 {
+        font-size: 1.5rem;
     }
 
-    main aside#population {
-        grid-column: 2 / 3;
-        margin-top: 1rem;
+    .image-gallery p {
+        font-size: 1.1rem;
     }
 
-    main aside#city {
-        grid-column: 4 / 5;
-        margin-top: 1rem;
+    .plans-description {
+        font-size: 1.1rem;
     }
 
-    main h1 {
-        grid-column: 3 / 4;
+    .join-container h2 {
+        font-size: 1.75rem;
     }
 
-
-    /* FORM */
-
-    form {
-        grid-column: 3 / 4;
+    .join-container h3 {
+        font-size: 1.5rem;
     }
 
-    /* FOOTER */
-
-    footer div {
-        grid-template-columns: 3fr .5fr 2fr .5fr 2fr .5fr 4fr;
+    .join-form {
+        font-size: 1.1rem;
     }
 
-    footer div p:nth-child(7) {
-        grid-column: 7 / 8;
-        justify-self: baseline;
+    .join-submit {
+        margin-left: 8.5rem;
     }
 
-    #mapa {
-        color:white;
-        text-decoration: none;
-        font-family: "Ubuntu", Sans-serif;        
+    .directory-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .contact-container h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        font-size: 1.1rem;
     }
 }

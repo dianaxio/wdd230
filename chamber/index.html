@@ -1,119 +1,132 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/medium.css">
-    <link rel="stylesheet" href="./styles/large.css">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <title>Rosario Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 Chamber of Commerce Project Home Page">
+    <title>Rosario Chamber of Commerce | Home Page</title>
+    <link rel="icon" href="images/favicon.ico">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
-<body id="afterbegin">
-
+<body>
+    <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <header>
-        <img id="site-logo" src="./images/fauget.png" alt="logo">
-        <h1>Rosario</h1>
-        <h2>Chamber of Commerce</h2>
-        <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
-        <img id="linkedin-logo" src="./images/linkedin.png" alt="LinkedIn">
-        <button id="menuButton">&#9776;</button>
-        <nav id="primaryNav">
-            <ul>
-                <li><a class="at" href=".">Home</a></li>
-                <li><a href="./discove.html">Discover</a></li>
-                <li><a href="./directory.html">Directory</a></li>
-                <li><a href="./join.html">Join</a></li>
-                <li><a href="./discover.html">Contact</a></li>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/fauget.webp" alt="Rosario Chamber of Commerce logo">
+            </a>
+            <div>
+                <h1>Rosario</h1>
+                <h2>Chamber of Commerce</h2>   
+            </div>
+        </div>
+        <button id="ham-btn"><span>&#9776;</span><span>X</span></button>
+        <div class="date"></div>
+        <div class="social ">
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/facebook.png" alt="Facebook logo">
+            </a>
+            <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/twitter.png" alt="Twitter logo">
+            </a>
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedin.png" alt="LinkedIn logo">
+            </a>
+        </div>
+        <nav>
+            <ul id="primary-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <p id="today"></p>
-    </header> 
-    
-    <main id="afterend">
-        
-        <section id="hero" ><h3>Welcome to Rosario</h3>
-            <br><br><br><br><br><br><br>
-            <button class="join-bt">Join the Chamber</button><a href="/chamber/join.html"></a> 
+    </header>
 
-        </section>
-        
-        
-        <section id="event"><h4>Grand Opening</h4>
-            <img src="./images/office-logo.svg" alt="Office" width="75">
+    <main>
+        <div class="main-container">
+            <div class="hero box">
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/large.png">
+                    <source media="(min-width: 640px)" srcset="images/medium.png">
+                    <source media="(min-width: 425px)" srcset="images/small.png">
+                    <source media="(min-width: 375px)" srcset="images/small.png">
+                    <source media="(min-width: 320px)" srcset="images/small.png">
+                    <img src="images/small.png" alt="Hero image">
+                </picture>
 
-            <p>Join us fot the grand opening of the City Center Building new Office Space, Tuesday at 2 p.m<a href="#"> more info...</a></p>
-
-        </section>
-        <section id="weather"></section>
-        <section id="join">
-            <button class="join-btn">
-            Join Us!</button><a href="/chamber/join.html"></a> 
-            <p id="disc">Discover how to join the Rosario Chamber of Commercer and how it will benefit your organization!</p>
-        </section>
-        <section id="news"><h4>News release</h4>
-            <p>November 18th - Newells achieved an agonizing 1-0 away win over Rosario Central in a new edition of the Rosario Derby to remain as the sole leader of Group A of the Argentine Professional Football League Cup.
-                In the closing of Saturday's interzonal day of the classics.
-        </section>
-        <section id="spotlight">
-            <article>Logistics & Transport
-                <p>"We make moving easier"</p>
-                <img src="./images/transport-logo.svg" alt="Office" width="60">
-                <p class="division"></p>
-                <span>+54 341 337-9562</span>
-               <p>contactus@transp.com</p>
-
-
-            </article>
-        
-            <article>Legal Services
-                <p>"Best Qualified Law Firm"</p>
-                <img src="./images/lawyer-logo.svg" alt="Logo" width="60">
-
-                    <p class="division"></p>
-                    <p> +54 341 574-8025</p>
-                    <p>lex-legal@gmail.com</p>
-
-
-            </article>
-            <article>Marketing Consulting
-                <p class="division"></p>
-                <img src="./images/mkt-logo.svg" alt="Logo" width="45">
-                <p>+54 341 449-9632</p>
-                <span>consults@mail.com</span>
-
-
-            </article>
-        </section>
-    </main>
-    <footer> 
-        <img src="./images/fauget.png" alt="Logo">
-        <h4>Rosario Chamber of Commerce</h4>
-        <p id="rosario2">Rosario, Argentina</p>
-        <p id="rosario3">+(54) 341 655-9884</p>
-        <p id="address"> 401 Nansen.</p>
-        <p id="email">rosariochamber@commerce.com.ar</p>
-        <p id="map"><a href="https://goo.gl/maps/uaSiURKyE3MSLpfj8" id="mapa">📍 Location Map </a></p>
-        <p class="division"></p>
-        <div>
-            <p id="rosario1"> &copy;<span id="year"></span> Rosario Chamber</p>
-            <span class="separation">|</span>
-            <h5>Diana Menacho Terrel</h5>
-            <span class="separation">|</span>
-            <p>WDD 230 Project</p>
-            <span class="separation">|</span>
-            <p>Last modification: <span id="lastUpdated"></span></p>
+                <h3>Welcome to Rosario!</h3>
+                <a href="/chamber/join.html">
+                    <button class="join-btn">Join the Chamber</button>
+                </a>
+            </div>
+            <div class="event box">
+                <h3>Grand Opening</h3>
+                <img 
+                    src="images/office-logo.svg" 
+                    alt="Office Logo"
+                    height="80px">
+                <p>Join us fot the grand opening of the City Center Building new Office Space, Tuesday at 2 p.m <a href="#">more info...</a></p>
+            </div>
+            <div class="weather box">
+                <h3>Weather</h3>
+                <p>
+                    <figure>
+                        <img src="" alt="" class="weather-icon" />
+                        <p><span class="temperature"></span> °C</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    Wind Speed: <span class="wind-speed"></span> km/h<br>
+                    Wind Chill: <span class="wind-chill"></span> °C
+                </p>
+            </div>
+            <div class="join box">
+                <a href="/chamber/join.html">
+                    <button class="join-btn"><h3>Join Us!</h3></button>
+                </a>
+                <p>Discover how to join the Rosario Chamber of Commercer and how it will benefit your organization!</p>
+            </div>
+            <div class="news box">
+                <h3>News Release</h3>
+                <p>
+                    November 18th - Newells achieved an agonizing 1-0 away win over Rosario Central in a new edition of the Rosario Derby to remain as the sole leader of Group A of the Argentine Professional Football League Cup.
+                    <br>
+                    In the closing of Saturday's interzonal day of the classics.
+                </p>
+            </div>
+            <div class="spotlights-container box"></div>
         </div>
+    </main>
 
+    <footer>
+        <div class="footer-logo">
+            <a href="#">
+                <img src="images/fauget.webp" alt="Rosario Chamber of Commerce logo">
+            </a>
+            <h3>Rosario Chamber of Commerce</h3>
+            <p>
+                401 Nansen. <br><br>
+                Rosario, Argentina
+            </p>
+        </div>
+        <div class="contact-info">
+            <p>rosariochamber@commerce.com.ar</p>
+            <p>+(54) 341 655-9884</p>
+            <a href="https://goo.gl/maps/uaSiURKyE3MSLpfj8" target="_blank">📍Location Map</a>
+        </div>
+        <div class="web-info">
+            &copy;<span class="current-year"></span> Rosario Chamber | <strong>Diana Menacho</strong> | WDD 230 Project | <br>
+            Last Updated: <span class="last-modified"></span>
+        </div>
     </footer>
-    <script src="scripts/main.js"></script> 
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/banner.js"></script>
-
-
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/spotligth.js"></script>
 </body>
 </html>

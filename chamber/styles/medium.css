@@ -1,396 +1,172 @@
-@media (min-width: 26.5em) {
-
-    /* HEADER */
-
-    header h1 {
-        grid-column: 4 / 11;
-        grid-row: 1 / 2;
-        margin: 0;
-        align-self: center;
-    }
-
-    header h2 {
-        grid-column: 4 / 16;
-        grid-row: 2 / 3;
-        margin: 0;
-
-    }
-
-    header #facebook-logo {
-        grid-column: 11 / 12;
-        object-fit: cover;
-        width: 70%;
-        align-self: center;
-        justify-self: center;
-    }
-
-    header #linkedin-logo {
-        grid-column: 12 / 13;
-        object-fit: cover;
-        width: 70%;
-        align-self: center;
-        justify-self: center;
-    }
-
-    header #site-logo {
-        grid-column: 1 / 4;
-        grid-row: 1 / 3;
-        align-self: center;
-        justify-self: center;
-        border-radius: 50%;
-        object-fit: cover;
-        width: 60%;
-    }
-
-    header button {
-        grid-column: 15 / 16;
-        align-self: center;
-        justify-self: center;
-        background-color: var(--primary-dark-color);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        color: var(--dark-text-color);
-        margin: .4rem;
-        height: 50px;
-        width: 50px;
-        padding: .5rem;
-        cursor: pointer;
-    }
-
-    header p {
-        grid-column: 1 / -1;
-        grid-row: 4 / 5;
-        margin: .5rem;
-        padding: 1rem;
-        background-color: rgba(0, 0, 0, 0.3);
-        text-align: center;
-    }
-
-    header nav, .primaryNav, ul, li, a {
-       
-        background-color: var(--primary-dark-color);
-        color: var(--primary-dark-color);
-        font-family: "ubuntu", Sans-serif;
-    }
-
-    /* MAIN */
-
-    main {
-        display: grid !important;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(5, auto);
-        gap: 0 .5rem;
-    }
-
-    main section {
-        grid-column: 1 / -1;
-    }
-
-    main section article {
-        padding: 1rem;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        background-color: #DDDAE9;
-        height: auto;
-    }
-
-
-    /* HOME PAGE */
-
-    main section#hero {
-        grid-row: 1 / 2;
-        font-size: 1.5em;
-        text-align: left;
-        font-family: "Ubuntu", Sans-serif;
-        
-    }
-
-    main section#news {
-        grid-row: 2 / 3;
-        /* font-size: 0.9em; */
-        color:black;
-
-
-    }
-
-    main section#join {
-        display: block;
-        grid-row: 4 / 5;
-        /* font-size: 0.9em; */
-
-    }
-
-    /* PG MD*/
-    .join-bt {
-        text-align: center;
-
-        
-
-    }
-
-        /* PG MD*/
-
-    #j h4 {
-        
-        text-align: center;
-
-
-    }
-
-    main section#event {
-        grid-column: 1 / 5;
-        grid-row: 5 / 6;
-        /* font-size: 0.9em; */
-
-    }
-
-    main section#weather {
-        grid-column: 5 / 7;
-        grid-row: 5 / 6;
-        font-family: "Ubuntu", Sans-serif;
-        background-color: rgb(187, 170, 170);
-        /* font-size: 0.9em; */
-    }
-
-    main section#spotlight {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: .5rem;
-        grid-row: 3 / 4;
-        height: 82%;
-        color:black;
-        font-family: "Ubuntu", Sans-serif;
-
-
-    }
-
-    main section#spotlight article:nth-child(3) {
-        display: none;
-        color:black;
-        font-family: "Ubuntu", Sans-serif;
-
-
-
-    }
-
-    /* DISCOVER PAGE */
-    aside#population ul, li{
-        font-family: "Ubuntu", sans-serif;
+@media only screen and (min-width: 40em) {
     
-    }
+  .social img {
+      width: 50px;
+      padding: 2px;
+  }
 
-    main section#discover {
-        grid-column: 1 / -1;
-        grid-row: 1 / 2;
-    }
+  nav ul li a {
+      font-size: 1.1rem;
+  }    
+  
+  .open {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }    
+  
+  .main-container {
+      grid-template-columns: 1fr 1fr 1fr;
+  }    
+  
+  .hero,
+  .news,
+  .join,
+  .spotlights-container {
+      grid-column: 1/4;
+  }    
+  
+  .hero h3 {
+      width: 40%;
+  }
 
-    main aside#population {
-        grid-column: 1 / 4;
-        margin-top: 1rem;
-    }
+  .join {
+      display: block;
+      order: 1;
+      text-align: center;
+  }    
+  
+  .join-btn {
+      width: 30%;
+  }
 
-    main aside#population h3 {
-        text-align: center;
-    }
+  .event,
+  .weather {
+      order: 2;
+  }    
 
-    main aside#city {
-        grid-column: 4 / 7;
-        margin-top: 1rem;
-    }
+  .event {
+      grid-column: 1/3;
+  }    
 
-    main aside#city h3 {
-        text-align: center;
-    }
+  .spotlights-container {
+      flex-direction: row;
+      align-items: stretch;
+      height: 240px;
+  }    
 
-    main h1 {
-        grid-column: 3 / 5;
-    }
+  .spotlight {
+      flex: 50%;
+      height: auto;
+  }    
 
+  footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+  }    
 
-    /* FORM */
+  footer * {
+      padding: 8px;
+  }    
 
-    form {
-        grid-column: 2 / 6;
-    }
+  .footer-logo {
+      display: grid;
+      grid-template-columns: 210px auto;
+      justify-self: start;
+      text-align: initial;
+      margin: 0;
+  }    
 
-    form label input,
-    form label textarea,
-    form label select {
-        max-width: 14em;
-    }
+  .footer-logo img {
+      grid-column: 1;
+      grid-row: 1/3;
+      width: 100%;
+      padding: 0;
+      margin: 8px;
+  }    
 
+  .footer-logo h3 {
+      align-self: end;
+  }    
 
-    form label input:required {
-        max-width: calc(14em - 6px);
-    }
+  .footer-logo p {
+      align-self: start;
+  }    
 
-    form label input:required:valid {
-        max-width: calc(14em - 6px);
-    }
+  .contact-info {
+      grid-column: 2;
+  }    
 
+  .web-info {
+      grid-column: 1/3;
+      margin: 0;
+  }    
 
-    /* DIRECTORY */
+  .image-gallery img:hover {
+      border-radius: 16px;
+      border: 4px solid yellow;
+      filter: opacity(0.9);
+  }    
 
-    main div.cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        /* grid-column: 2 / 6; */
-    }
+  .join-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+  }    
 
-    main div.cards section {
-        grid-column: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: .3rem .3rem;
-        padding: .5rem .5rem;
-        text-align: center;
-        background-color: rgb(76, 97, 104);
-    }
+  .plans-description {
+      order: 1;
+  }    
 
-    main div.cards section p {
-        margin: .5rem;
-    }
+  .join-form {
+      text-align: left;
+      margin-left: 1rem;
+  }    
 
-    main div.cards section h2 {
-        margin: .75rem;
-    }
+  label,
+  input,
+  textarea,
+  select {
+      text-align: left;
+  }    
 
-    /* FOOTER */
+  .join-submit {
+      margin-left: 5.5rem;
+  }
 
-    footer {
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-        grid-template-rows: repeat(6, auto);
-    }
-    #year, p, span {
-        font-family: "Ubuntu", Sans-serif;
-    }
+  .thank-you {
+      font-size: 1.1rem;
+  }
 
-    #year, #rosario1, #rosario2, #rosario3 {
-        color:white;
-    }
+  .directory-grid {
+      grid-template-columns: 1fr 1fr;
+  }
 
+  .directory-list section {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      align-items: center;
+  }
 
-       
+  .contact-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+  }
 
-    section, .weather, .join, .event, .news, .spotlight {
-        font-family: "Ubuntu", Sans-serif;
-        text-align: center;
+  iframe {
+      width: 400px;
+  }
 
+  .contact-form {
+      text-align: left;
+      margin-left: 1rem;
+      margin-top: 32px;
+  }
 
-    }
-
-    footer img {
-        justify-items: center;
-        object-fit: cover;
-        width: 50%;
-        grid-column: 1 / 2;
-        grid-row: 1 / 4;
-    }
-
-    footer h4 {
-        text-align: center;
-        align-self: end;
-        margin: 0;
-        color: white;
-
-    }
-
-    footer p#address {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-        align-self: start;
-        margin: 0;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-
-
-    }
-    footer p#email {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        align-self: end;
-        margin: 0;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-
-
-    }
-    footer p.division {
-        grid-column: 1 / -1;
-        grid-row: 4 / 5;
-        
-        
-    }
-
-    footer p#phoneNumber {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        align-self: end;
-        margin: 0;
-        color: white;
-
-    }
-
-    footer p.division {
-        grid-column: 1 / -1;
-        grid-row: 4 / 5;
-    }
-
-    footer p#map {
-        align-self: start;
-        margin: 0;
-        color: white;
-
-    }
-
-    #mapa {
-        color:white;
-        text-decoration: none;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-        
-    }
-
-
-    footer div {
-        grid-column: 1 / -1;
-        grid-row: 5 / 6;
-        display: grid;
-        grid-template-columns: 3fr .5fr 3fr .5fr 3fr .5fr;
-        grid-template-rows: auto;
-        text-align: center;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-
-    }
-
-    footer div :nth-child(3) {
-        grid-column: 3/ 4;
-        grid-row: 1 / 2;
-        color: white;
-
-        
-    }
-
-    footer div p:nth-child(5) {
-        grid-column: 5 / 6;
-        grid-row: 1 / 2;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-
-
-    }
-
-    footer div p:nth-child(7) {
-        grid-column: 1 / -1;
-        font-family: "Ubuntu", Sans-serif;
-        color: white;
-
-
-    }
-
-    .separation {
-        display: inline;
-        margin: 0 .5rem;
-    }
+  .info *{
+      margin: 0.2em 0;
+  }
 }
