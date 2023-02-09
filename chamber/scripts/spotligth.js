@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/dianaxio/wdd230/blob/main/chamber/data/data.json';
+const requestURL = 'https://raw.githubusercontent.com/dianaxio/wdd230/main/chamber/data/data.json';
 
 spotlightCompanies = [];
 
