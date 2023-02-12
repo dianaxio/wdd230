@@ -1,0 +1,104 @@
+{
+    "companies" : [
+        {
+            "name" : "Logistics & Transport",
+            "address" : "Laprida 1220",
+            "phone" : "+54 341 337-9562",
+            "email" : "contactus@transp.com",
+            "url" : "https://transp.com.ar",
+            "img" : "images\\transport-logo.svg",
+            "slogan" : "We make moving easier",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Legal Services",
+            "address" : "Pellegrini 155",
+            "phone" : "+54 341 574-8025",
+            "email" : "lex-legal@gmail.com",
+            "url" : "https://lex-legal.net",
+            "img" : "images\\lawyer-logo.svg",
+            "slogan" : "Best Qualified Law Firm",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Marketing Consulting",
+            "address" : "Lamadrid 341",
+            "phone" : "+54 341 226-9841",
+            "email" : "mkt-consulting@mail.com",
+            "url" : "https://mkt-consulting.com.ar",
+            "img" : "images\\mkt-logo.svg",
+            "slogan" : "Build your brand’s voice",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Universidad Tecnologica Nacional",
+            "address" : "ZEBALLOS 1341",
+            "phone" : "+54 341 226-9841",
+            "email" : "informacion@fra.utn.edu.ar",
+            "url" : "https://www.frro.utn.edu.ar/",
+            "img" : "images\\utn-logo.png",
+            "slogan" : "Engineering University",
+            "membership" : "non-profit"
+        },
+        {
+            "name" : "Carrefour Rosario",
+            "address" : "Av. Pellegrini 3250",
+            "phone" : "54 341 226-9841",
+            "email" : "clientes@carrefour.com.ar",
+            "url" : "https://carrefour.com.ar",
+            "img" : "images\\carrefour-logo.svg",
+            "slogan" : "The lowest price",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Universidad Nacional de Rosario",
+            "address" : "Córdoba 2020",
+            "phone" : "+54  341 480-2635",
+            "email" : "info@undav.edu.ar",
+            "url" : "https://undav.edu.ar",
+            "img" : "images\\uai.png",
+            "slogan" : "National University",
+            "membership" : "non-profit"
+        },
+        {
+            "name" : "La Virginia",
+            "address" : "1340 bis, Juan Pablo II",
+            "phone" : "+54 341 226-9841",
+            "email" : "info@lavirginia.com.ar",
+            "url" : "https://lavirginia.com.ar",
+            "img" : "images\\la-virginia-logo.svg",
+            "slogan" : "Flavors that comfort",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Ferrum S.A.",
+            "address" : "Laprida 720",
+            "phone" : "54 341 226-9841",
+            "email" : "info@ferrum.com",
+            "url" : "https://ferrum.com",
+            "img" : "images\\ferrum-logo.png",
+            "slogan" : "Supports your projects",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Informatica S.A.",
+            "address" : "España 598",
+            "phone" : "+54 341 226-9841",
+            "email" : "ventas@informaticasa.com.ar",
+            "url" : "https://informaticasa.com.ar",
+            "img" : "images\\informatica-logo.png",
+            "slogan" : "Medical IT solutions",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "American Pack",
+            "address" : "Urquiza 14",
+            "phone" : "+54 341 226-9841",
+            "email" : "ventas@americanpack.com.ar",
+            "url" : "https://americanpack.com.ar",
+            "img" : "images\\american-pack-logo.png",
+            "slogan" : "We deliver",
+            "membership" : "bronze"
+        }
+    ]
+}
