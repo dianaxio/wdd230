@@ -263,7 +263,7 @@ main {
 }
 
 .box h3, p{
-  margin: 5;
+  margin: 0em;
   text-align: center;
   font-size: 0.9rem;
   font-family: 'Ubuntu', sans-serif;
