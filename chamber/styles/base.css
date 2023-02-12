@@ -33,6 +33,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 0.5rem;
+  
 }
 
 /* HEADER */
@@ -43,7 +44,6 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  
   
 }
 
@@ -60,6 +60,7 @@ header {
   /* border: 1px solid rgba(255, 255, 255, 0.3); */
   text-align: center;
   font-size: 0.9em;  
+  
   
 }
 
@@ -196,7 +197,7 @@ nav ul {
   /* raya */
   border-top: 1px solid rgba(39, 36, 36, 0.3);
   font-size: 1em;
-
+  
   
 }
 
@@ -210,7 +211,7 @@ color: #FFFFFF;
 text-align: center;
 padding: 0.70rem;
 text-decoration: none;
-
+font-family: 'Ubuntu', sans-serif;
 
 }
 
