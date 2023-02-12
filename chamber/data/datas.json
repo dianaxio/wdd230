@@ -3,7 +3,7 @@
         {
             "name" : "Logistics & Transport",
             "address" : "Almafuerte 565",
-            "phone" : "+54 11 4229-7600",
+            "phone" : "+54 341 449-6987",
             "email" : "contact@logandtr.com.ar",
             "url" : "https://logandtr.com.ar",
             "img" : "images\\transport-logo.svg",
@@ -13,7 +13,7 @@
         {
             "name" : "Legal Services",
             "address" : "Ing. Marconi 570",
-            "phone" : "+54 11 4222-6999",
+            "phone" : "+54 341 449-6987",
             "email" : "comm-law@legalmail.net",
             "url" : "https://comm-law.legal.net",
             "img" : "images\\lawyer-logo.svg",
@@ -23,7 +23,7 @@
         {
             "name" : "Marketing Consulting",
             "address" : "12 de Octubre 55",
-            "phone" : "+54 11 4001-0700",
+            "phone" : "+54 341 4001-0700",
             "email" : "mkt-consulting@mail.com",
             "url" : "https://mkt-consulting.com.ar",
             "img" : "images\\mkt-logo.svg",
@@ -33,7 +33,7 @@
         {
             "name" : "Universidad Tecnologica Nacional",
             "address" : "Av. Bartolome Mitre 750",
-            "phone" : "+54 11 4201-4133",
+            "phone" : "+54 341 449-6987",
             "email" : "informacion@fra.utn.edu.ar",
             "url" : "https://fra.utn.edu.ar",
             "img" : "images\\utn-logo.png",
@@ -41,7 +41,7 @@
             "membership" : "non-profit"
         },
         {
-            "name" : "Carrefour Avellaneda",
+            "name" : "Carrefour Rosario",
             "address" : "Av. Hipolito Yrigoyen 299",
             "phone" : "0800-444-8484",
             "email" : "clientes@carrefour.com.ar",
@@ -51,9 +51,9 @@
             "membership" : "gold"
         },
         {
-            "name" : "Universidad Nacional de Avellaneda",
+            "name" : "Universidad Nacional de Rosario",
             "address" : "España 350",
-            "phone" : "+54 11 4229-2400",
+            "phone" : "+54 341 449-6987",
             "email" : "info@undav.edu.ar",
             "url" : "https://undav.edu.ar",
             "img" : "images\\undav-logo.png",
@@ -63,7 +63,7 @@
         {
             "name" : "La Virginia",
             "address" : "Gral. Levalle 475",
-            "phone" : "+54 11 4201-0784",
+            "phone" : "+54 341 449-6987",
             "email" : "info@lavirginia.com.ar",
             "url" : "https://lavirginia.com.ar",
             "img" : "images\\la-virginia-logo.svg",
@@ -83,7 +83,7 @@
         {
             "name" : "Informatica S.A.",
             "address" : "Av. Bartolome Mitre 96",
-            "phone" : "+54 11 4201-3222",
+            "phone" : "+54 341 449-6987",
             "email" : "ventas@informaticasa.com.ar",
             "url" : "https://informaticasa.com.ar",
             "img" : "images\\informatica-logo.png",
@@ -93,7 +93,7 @@
         {
             "name" : "American Pack",
             "address" : "Felipe Aldecoa 621",
-            "phone" : "+54 11 4201-4444",
+            "phone" : "+54 341 449-6987",
             "email" : "ventas@americanpack.com.ar",
             "url" : "https://americanpack.com.ar",
             "img" : "images\\american-pack-logo.png",
