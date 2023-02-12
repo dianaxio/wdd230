@@ -7,7 +7,7 @@
     <meta name="description" content="WDD 230 Chamber of Commerce Project Home Page">
     <title>Rosario Chamber of Commerce | Home Page</title>
     <link rel="icon" href="images/favicon.ico">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -26,6 +26,7 @@
             </div>
         </div>
         <button id="ham-btn"><span>&#9776;</span><span>X</span></button>
+        
         <div class="date"></div>
         <div class="social ">
             <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -41,10 +42,10 @@
         <nav>
             <ul id="primary-nav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -56,40 +57,35 @@
                     <source media="(min-width: 960px)" srcset="images/large.png">
                     <source media="(min-width: 640px)" srcset="images/medium.png">
                     <source media="(min-width: 425px)" srcset="images/small.png">
-                    <source media="(min-width: 375px)" srcset="images/small.png">
-                    <source media="(min-width: 320px)" srcset="images/small.png">
+                    <!-- <source media="(min-width: 375px)" srcset="images/small.png">
+                    <source media="(min-width: 320px)" srcset="images/small.png"> -->
                     <img src="images/small.png" alt="Hero image">
                 </picture>
 
                 <h3>Welcome to Rosario!</h3>
-                <a href="/chamber/join.html">
-                    <button class="join-btn">Join the Chamber</button>
-                </a>
+                <button class="join-btn" onclick="window.location.href='/chamber/join.html'">Join the Chamber</button>
             </div>
             <div class="event box">
                 <h3>Grand Opening</h3>
                 <img 
                     src="images/office-logo.svg" 
                     alt="Office Logo"
-                    height="80px">
+                    height="80">
                 <p>Join us fot the grand opening of the City Center Building new Office Space, Tuesday at 2 p.m <a href="#">more info...</a></p>
             </div>
             <div class="weather box">
                 <h3>Weather</h3>
                 <p>
                     <figure>
-                        <img src="" alt="" class="weather-icon" />
+                        <img src="image" alt="logo" class="weather-icon">
                         <p><span class="temperature"></span> °C</p>
                         <figcaption></figcaption>
                     </figure>
                     Wind Speed: <span class="wind-speed"></span> km/h<br>
                     Wind Chill: <span class="wind-chill"></span> °C
-                </p>
             </div>
             <div class="join box">
-                <a href="/chamber/join.html">
-                    <button class="join-btn"><h3>Join Us!</h3></button>
-                </a>
+                <button class="join-btn" onclick="window.location.href='/chamber/join.html'">Join Us!</button>
                 <p>Discover how to join the Rosario Chamber of Commercer and how it will benefit your organization!</p>
             </div>
             <div class="news box">
@@ -118,10 +114,10 @@
         <div class="contact-info">
             <p>rosariochamber@commerce.com.ar</p>
             <p>+(54) 341 655-9884</p>
-            <a href="https://goo.gl/maps/uaSiURKyE3MSLpfj8" target="_blank">📍Location Map</a>
+            <br><a href="https://goo.gl/maps/uaSiURKyE3MSLpfj8" target="_blank">📍Location Map</a>
         </div>
         <div class="web-info">
-            &copy;<span class="current-year"></span> Rosario Chamber | <strong>Diana Menacho</strong> | WDD 230 Project | <br>
+            &copy;<span class="current-year"></span> Rosario Chamber | <strong>Diana Menacho Terrel</strong> | WDD 230 Project | <br>
             Last Updated: <span class="last-modified"></span>
         </div>
     </footer>

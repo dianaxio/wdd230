@@ -5,7 +5,7 @@ const windSpeed = document.querySelector('.wind-speed');
 const weatherIcon = document.querySelector('.weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-34.660&lon=-58.367&units=metric&appid=4cc78ee7f99ae471b5d144d07bbe927e'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Rosario,Argentina&appid=3b2ef76d25ad22a05fcfd9aeead6bddb&units=metric'
 
 async function apiFetch() {
     try {

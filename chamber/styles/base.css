@@ -33,7 +33,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 0.5rem;
-  
 }
 
 /* HEADER */
@@ -44,6 +43,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  
   
 }
 
@@ -57,18 +57,20 @@ header {
   /* max-width: 1024px; */
   color: white;
   background-color: var(--primary-dark-color);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   text-align: center;
+  font-size: 0.9em;  
   
 }
 
 .header-logo {
-  grid-column: 1/4;
+  grid-column: 1/5;
   display: flex;
   justify-content: space-around;
   font-family: 'Ubuntu', sans-serif;
   width: 80%;
   border-radius: 10px;
+  
 
 }
 
@@ -83,13 +85,14 @@ header {
   display: contents;
   
   
+  
 }
 
 .header-logo img {
   max-width: 180px;
   margin: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 25%;
+  width: 60%;
 
   
   
@@ -106,13 +109,16 @@ header {
 }
 
 .header-logo h1 {
-  font-size: clamp(1.75rem, 7.5vw, 3rem);
+  font-size: 2.1em;
+
+  
 }
 
 .header-logo h2 {
-  font-size: clamp(1.25rem, 5vw, 2rem);
+  font-size: 1.6em;
   font-weight: normal;
   letter-spacing: 0.5px;
+  
 }
 
 header button {
@@ -124,12 +130,12 @@ header button {
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 4px;
   background-color: #FFFFFF;
-  color: black;
+  color: black; 
 }
 
 .date {
   grid-column: 2/6;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 4px;
   padding: 4px;
   color: white;
@@ -142,29 +148,34 @@ header button {
   justify-content: center;
   display: flex;
   
+  
 }
 
 .social img {
   width: 32px;
   padding: 2px;
   border-radius: 90px;
+  
 
 }
 
 nav {
-width: 100%;
-background-color: var(--primary-dark-color);
-margin: 0 auto;
-max-width: 1024px;
+  width: 100%;
+  background-color: var(--primary-dark-color);
+  margin: 0 auto;
+  max-width: 1024px;
   grid-column: 1/7;
+  
 }
 
 #ham-btn span:nth-child(1) {
   display: block;
   
+  
 }
 #ham-btn span:nth-child(2) {
   display: none;
+  
 }
 
 #ham-btn.open span:nth-child(1) {
@@ -172,6 +183,7 @@ max-width: 1024px;
 }
 #ham-btn.open span:nth-child(2) {
   display: block;
+  
 }
 
 nav ul {
@@ -181,7 +193,10 @@ nav ul {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* raya */
+  border-top: 1px solid rgba(39, 36, 36, 0.3);
+  font-size: 1em;
+
   
 }
 
@@ -193,16 +208,20 @@ nav ul li a {
 display: block;
 color: #FFFFFF;
 text-align: center;
-padding: 0.75rem;
+padding: 0.70rem;
 text-decoration: none;
+
 
 }
 
+/* BaNER */
 nav ul li a:hover,
 nav ul li a:focus {
   color: rgb(227, 204, 233);
   background-color: var(--secondary-dark-color);
   font-family: 'Ubuntu', sans-serif;
+  border-radius: 10px;
+  
 }
 
 /* Color HOME */
@@ -216,6 +235,7 @@ nav ul li a:focus {
 main {
   margin: 0 auto;
   max-width: 1024px;
+  
 }
 
 .main-container {
@@ -224,27 +244,29 @@ main {
   gap: 5px;
   margin: 5px;
   color: black;
+  
 }
 
 .join,
 .spotlight:nth-child(3) {
   display: none;
+  
 }
 
 .box {
   box-sizing: border-box;
   margin: 2px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(12, 11, 11, 0.3);
   padding: 8px;
   background-color: lightgray;
   
-  height: 200px;
 }
 
-.box h3 {
-  margin: 0;
+.box h3, p{
+  margin: 5;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .join-btn {
@@ -252,24 +274,28 @@ main {
   border-radius: 16px;
   padding: 8px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #232323;
   background-color: rgb(159, 161, 31);
   cursor: pointer;
+  
+  
 }
 
 .join-btn:hover,
 .join-btn:active {
-  color: gray;
-  background-color: var(--secondary-dark-color);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  background-color: rgb(170, 132, 83);
+  border: 1px solid black;
+  
 }
 
 .hero {
   position: relative;
   height: auto;
   border-radius: 15px;
+  
 }    
 
 .hero picture img {
@@ -286,12 +312,11 @@ main {
   left: 16px;
   margin: 0;
   padding: 0.5rem;
-  width: 80%;
-  border: 1px solid #232323;
-  border-radius: 16px;
-  color: black;
-  background-color: rgb(159, 161, 31);
+  color: #3A3E52;
   text-align: center;
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 150%;
+  
 }
 
 .hero .join-btn {
@@ -299,31 +324,46 @@ main {
   bottom: 18px;
   right: 18px;
   width: fit-content;
+  
 }
 
 .event {
   text-align: center;
+  border: 1px solid rgba(12, 11, 11, 0.3);
+  
+
+  
 }
 
 .event h3 {
   margin: 0 0 .25em;
+  
 }
 
 .event a {
-  color: yellow;
+  color: rgb(110, 49, 110);
+  border: 1px solid rgba(12, 11, 11, 0.3);
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .event a:visited {
-  color: yellow;
+  color: purple;
+  
 }
 
 .event p {
   margin: 0;
   font-size: 0.9rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .weather {
   text-align: center;
+  font-size: 0.9rem;
+  border: 1px solid rgba(12, 11, 11, 0.3);
+  background-color: rgb(184, 167, 171);
+  
 }
 
 .weather figure {
@@ -332,19 +372,18 @@ main {
   align-items: center;
   justify-items: center;
   margin: -0.5rem 0.25rem 0.25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-bottom: .5em;
   
 }
 
 .weather figure p {
-  font-size: 1.5rem;
   margin: 0;
-  
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .weather figcaption {
-  grid-column: 1/3    ;
+  grid-column: 1/3;
   
 }
 
@@ -354,6 +393,9 @@ main {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
   overflow: hidden;
+  font-size: 0.9rem;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .spotlights-container {
@@ -363,27 +405,33 @@ main {
   padding: 4px;
   color: black;
   height: 450px;
+  
+  
 }
 
 .spotlight {
   margin: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(12, 11, 11, 0.3);
   padding: 8px;
   background-color: rgb(255, 255, 255, 0.1);
   height: 250px;
   text-align: center;
+  
 }
 
 .spotlight h3 {
   margin: 0 0 .25em;
+  
 }
 
 .spotlight p {
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .slogan {
   border-bottom: 1px solid gray;
+  
 }
 
 footer {
@@ -393,6 +441,7 @@ footer {
   background-color: var(--primary-dark-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
+  
 }
 
 .footer-logo {
@@ -403,16 +452,18 @@ footer {
   text-align: center;
   margin-bottom: 1rem;
   
+  
 }
 
 .footer-logo * {
   margin: 0;
   border-radius: 90px;
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .footer-logo a {
   display: contents;
+  
 }
 
 .footer-logo img {
@@ -420,14 +471,18 @@ footer {
   max-width: 180px;
   margin: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .contact-info * {
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
+/* Location map color */
 .contact-info a {
   text-decoration: none;
+  color: white;
 }
 
 .web-info {
@@ -476,20 +531,25 @@ footer {
   grid-template-columns: 1fr;
   margin: 5px;
   padding: 5px;
+
+  
 }
 
 .join-container h2,
 .join-container h3,
 .join-container h4 {
   color: gray;
+  
 }
 
 .join-container h3 {
   font-size: 1.25rem;
+  
 }
 
 .join-container h4 {
   margin-top: -1rem;
+  
 }
 
 .join-container h3:nth-of-type(1) {
@@ -577,6 +637,7 @@ textarea {
   justify-content: center;
   width: fit-content;
   margin: auto;
+  
 }
 
 .toggle-btn {
@@ -589,6 +650,7 @@ textarea {
   color: #FFFFFF;
   text-align: center;
   cursor: pointer;
+  
 }
 
 .toggle-btn:focus,
@@ -596,6 +658,7 @@ textarea {
   background-color: var(--primary-dark-color);
   color: gray;
   font-weight: bold;
+  
 }
 
 .directory-grid {
@@ -670,6 +733,7 @@ textarea {
 .contact-container h3 {
   color: gray;
   margin: 0.5em 0;
+  
 }
 
 .info {
