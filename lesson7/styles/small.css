@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+:root {
+    --primary-dark-color: #3A3E52;
+    --secondary-dark-color: #855c7f;
+    --accent-dark-color-1: #465281;
+    --accent-dark-color-2: #131314;
+    --light-text-color: #DDDAE9;
+    --dark-text-color: #FFFFFF;
+  
+    --header-font: 'Ubuntu', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+  }
+    
+
+html {
+    background-image: linear-gradient(to bottom, #d3c3b1,  #adaa92, #b4a4b3, #634a5f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    line-height: 1.3;
+    font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Forum', display;
+    letter-spacing: 1.25px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Rubik', Verdana, sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 960px;
+    padding: 1rem;
+    color: #ffffff;
+
+}
+
+header,
+footer {
+    background-color: #3A3E52;
+    text-align: center;
+    
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #3A3E52;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:link {
+    color: #D6D5A8;
+}
+
+footer a:visited {
+    color: #D6D5A8;
+}
+
+footer a:active {
+    color: #FF4242;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main picture {
+    align-self: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin: 8px;
+    border: 2px solid #3A3E52;
+}
