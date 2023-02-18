@@ -88,8 +88,16 @@
         font-size: 1.1rem;   
     }
 
+    section.demographics {
+        background-color: rgba(177, 117, 107, 0.7);
+        max-width: 300px;
+        text-align: center;
+        margin-left: 35%;
+      }
+
     .image-gallery h3 {
         font-size: 1.5rem;
+        color:black;
     }
 
     .image-gallery p {

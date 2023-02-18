@@ -497,9 +497,27 @@ footer {
   background-color: var(--primary-dark-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
+/* discover
+ */
+section.demographics {
+  background-color: rgba(177, 117, 107, 0.7);
+  max-width: 300px;
+  text-align: center;
+  /* margin-left: 56%; */
+
+}
+
+/*  */
+
+
+section h2 {
+  text-align: center;
+
+}
+  
 .image-gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -517,11 +535,14 @@ footer {
   transition: filter 0.5s;
   width: calc(100vw - 10px);
   max-width: 1024px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(11, 7, 44, 0.3);
+  border-radius: 5px;
+  
 }
 
 .image-gallery img[data-src] {
   filter: blur(0.2em);
+  
 }
 
 .join-container {
