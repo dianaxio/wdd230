@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap");
+
+html {
+    background-image: linear-gradient(to bottom, #d3c3b1,  #adaa92, #b4a4b3, #634a5f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+body {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', display;
+    letter-spacing: 1.25px;
+}
+
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 960px;
+    padding: 1rem;
+    color: white;
+}
+
+header,
+footer {
+    background-color: #3A3E52;
+    text-align: center;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #AD71E5;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:link {
+    color: #D6D5A8;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:active {
+    color: #f759d4;
+}
+
+table {
+    margin: auto;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 0.8);
+    
+}
+
+table,
+table th,
+table td {
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+    width: 50%;
+    
+}
+
+table tbody tr td {
+    transition: all 0.5s;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgba(161, 106, 145, 0.8);
+}
+
+table tbody tr td:hover {
+    background-color: #1B2430;
+    color: #FF4242;
+}
+
+.main-header {
+    background-color: #3A3E52;
+    font-size: 1em;
+}
+
+.header {
+    background-color: #3A3E52;
+    font-size: 1em;
+}
+
+caption {
+    padding: .8rem;
+    caption-side: bottom;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+table thead tr:last-child {
+    background-color: #333;
+    color: white;
+}
+table thead tr:last-child th:first-child, table thead tr:first-child{
+    background-color: black;
+    color: white;
+
+}
+
+@media only screen and (min-width: 40em) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    header,
+    footer {
+        border-radius: 10px;
+    }   
+
+}
+
+
