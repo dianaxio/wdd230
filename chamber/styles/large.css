@@ -106,22 +106,27 @@
 
     .plans-description {
         font-size: 1.1rem;
+        
     }
 
     .join-container h2 {
         font-size: 1.75rem;
+        font-family: "Ubuntu", "Sans-serif";
     }
 
     .join-container h3 {
         font-size: 1.5rem;
+        font-family: "Ubuntu", "Sans-serif"; 
     }
 
     .join-form {
         font-size: 1.1rem;
+        
     }
 
     .join-submit {
         margin-left: 8.5rem;
+        
     }
 
     .directory-grid {
@@ -134,9 +139,11 @@
 
     .contact-container h3 {
         font-size: 1.5rem;
+        
     }
 
     .contact-form {
         font-size: 1.1rem;
+        
     }
 }

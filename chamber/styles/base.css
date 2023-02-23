@@ -27,13 +27,12 @@ body {
 .banner {
   display: none;
   margin: 0 auto;
-  max-width: 1024px;
   color: var(--dark-text-color);
-  background-color: var(--primary-dark-color);
+  background-color: var(--secondary-dark-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
-  padding: 0.5rem;
-  
+  padding: 0.8rem;
+  width: 100%;  
 }
 
 /* HEADER */
@@ -59,8 +58,7 @@ header {
   background-color: var(--primary-dark-color);
   /* border: 1px solid rgba(255, 255, 255, 0.3); */
   text-align: center;
-  font-size: 0.9em;  
-  
+  font-size: 0.8em;  
   
 }
 
@@ -71,22 +69,15 @@ header {
   font-family: 'Ubuntu', sans-serif;
   width: 80%;
   border-radius: 10px;
-  
-
 }
 
 .header-logo * {
   margin: 0;
   border-radius: 90px;
-  
-
 }
 
 .header-logo a {
   display: contents;
-  
-  
-  
 }
 
 .header-logo img {
@@ -94,9 +85,6 @@ header {
   margin: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 60%;
-
-  
-  
 }
 
 .header-logo div {
@@ -110,16 +98,13 @@ header {
 }
 
 .header-logo h1 {
-  font-size: 2.1em;
-
-  
+  font-size: 2em;
 }
 
 .header-logo h2 {
   font-size: 1.6em;
   font-weight: normal;
   letter-spacing: 0.5px;
-  
 }
 
 header button {
@@ -163,17 +148,13 @@ nav {
   margin: 0 auto;
   max-width: 1024px;
   grid-column: 1/7;
-  
 }
 
 #ham-btn span:nth-child(1) {
   display: block;
-  
-  
 }
 #ham-btn span:nth-child(2) {
   display: none;
-  
 }
 
 #ham-btn.open span:nth-child(1) {
@@ -181,7 +162,6 @@ nav {
 }
 #ham-btn.open span:nth-child(2) {
   display: block;
-  
 }
 
 nav ul {
@@ -194,8 +174,6 @@ nav ul {
   /* raya */
   border-top: 1px solid rgba(39, 36, 36, 0.3);
   font-size: 1em;
-  
-  
 }
 
 .open {
@@ -209,7 +187,6 @@ text-align: center;
 padding: 0.70rem;
 text-decoration: none;
 font-family: 'Ubuntu', sans-serif;
-
 }
 
 /* BaNER */
@@ -219,7 +196,6 @@ nav ul li a:focus {
   background-color: var(--secondary-dark-color);
   font-family: 'Ubuntu', sans-serif;
   border-radius: 10px;
-  
 }
 
 /* Color HOME */
@@ -233,7 +209,6 @@ nav ul li a:focus {
 main {
   margin: 0 auto;
   max-width: 1024px;
-  
 }
 
 .main-container {
@@ -242,7 +217,6 @@ main {
   gap: 5px;
   margin: 5px;
   color: black;
-  
 }
 
 .join,
@@ -257,7 +231,6 @@ main {
   border: 1px solid rgba(12, 11, 11, 0.3);
   padding: 8px;
   background-color: lightgray;
-  
 }
 
 .box h3, p{
@@ -277,8 +250,6 @@ main {
   color: #232323;
   background-color: rgb(159, 161, 31);
   cursor: pointer;
-  
-  
 }
 
 .join-btn:hover,
@@ -286,14 +257,12 @@ main {
   color: white;
   background-color: rgb(170, 132, 83);
   border: 1px solid black;
-  
 }
 
 .hero {
   position: relative;
   height: auto;
   border-radius: 15px;
-  
 }    
 
 .hero picture img {
@@ -301,7 +270,6 @@ main {
   margin: 0 auto;
   width: 100%;
   border-radius: 10px;
-
 }
 
 .hero h3 {
@@ -313,8 +281,7 @@ main {
   color: #3A3E52;
   text-align: center;
   font-family: "Ubuntu", Sans-serif;
-  font-size: 150%;
-  
+  font-size: 150%; 
 }
 
 .hero .join-btn {
@@ -322,15 +289,12 @@ main {
   bottom: 18px;
   right: 18px;
   width: fit-content;
-  
 }
 
 .event {
   text-align: center;
   border: 1px solid rgba(12, 11, 11, 0.3);
-  
 
-  
 }
 
 .event h3 {
@@ -550,8 +514,6 @@ section h2 {
   grid-template-columns: 1fr;
   margin: 5px;
   padding: 5px;
-
-  
 }
 
 .join-container h2,
@@ -563,28 +525,34 @@ section h2 {
 
 .join-container h3 {
   font-size: 1.25rem;
+  font-family: "Ubuntu", "Sans-serif";
   
 }
 
 .join-container h4 {
   margin-top: -1rem;
-  
+  font-family: "Ubuntu", "Sans-serif";
+
 }
 
 .join-container h3:nth-of-type(1) {
   color: #232323;
+  font-family: "Ubuntu", "Sans-serif";
+
 }
 
 .join-container h3:nth-of-type(2) {
-  color: #CD7F32;
+  color: #91663c;
 }
 
 .join-container h3:nth-of-type(3) {
   color: #757575;
+  font-family: "Ubuntu", "Sans-serif";
+
 }
 
 .join-container h3:nth-of-type(4) {
-  color: #996515;
+  color: #aa9847;
 }
 
 .join-form {
@@ -594,6 +562,8 @@ section h2 {
 
 .join-form h2 {
   text-align: start;
+  font-family: "Ubuntu", "Sans-serif";
+
 }
 
 label,

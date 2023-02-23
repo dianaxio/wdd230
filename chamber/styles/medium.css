@@ -34,6 +34,7 @@
       display: block;
       order: 1;
       text-align: center;
+      
   }    
   
   .join-btn {
@@ -113,15 +114,20 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-items: center;
+      font-family: "Ubuntu", "Sans-serif";
+
   }    
 
   .plans-description {
       order: 1;
+      font-family: "Ubuntu", "Sans-serif";
+    
   }    
 
   .join-form {
       text-align: left;
       margin-left: 1rem;
+      
   }    
 
   label,
@@ -133,11 +139,13 @@
 
   .join-submit {
       margin-left: 5.5rem;
+      
   }
 
   .thank-you {
       font-size: 1.1rem;
   }
+
 
   .directory-grid {
       grid-template-columns: 1fr 1fr;
@@ -164,6 +172,7 @@
       text-align: left;
       margin-left: 1rem;
       margin-top: 32px;
+      
   }
 
   .info *{
