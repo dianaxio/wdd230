@@ -7,7 +7,7 @@
     <meta name="description" content="WDD 230 Chamber of Commerce Project Home Page">
     <title>Rosario Chamber of Commerce | Home Page</title>
     <link rel="icon" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -46,55 +46,51 @@
             </ul>
         </nav>
     </header>
+    
     <main>
-        <div class="main-container">    
-            <div class="hero box">
-                <picture>
-                    <source media="(min-width: 960px)" srcset="images/rosario-city-large.png">
-                    <source media="(min-width: 640px)" srcset="images/rosario-city-medium.png">
-                    <source media="(min-width: 425px)" srcset="images/rosario-city-small.png">
-                    <!-- <source media="(min-width: 375px)" srcset="images/small.png">
-                    <source media="(min-width: 320px)" srcset="images/small.png"> -->
-                    <img src="images/rosario-city-small.png" alt="Hero image">
-                </picture>
-
-                <h3>Welcome to Rosario!</h3>
-                <button class="join-btn" onclick="window.location.href='../chamber/join.html'">Join the Chamber</button>
-            </div>
-            <div class="event box">
-                <h3>Grand Opening</h3>
-                <img 
-                    src="images/office-logo.svg" 
-                    alt="Office Logo"
-                    height="80">
-                <p>Join us fot the grand opening of the City Center Building new Office Space, Tuesday at 2 p.m <a href="#">more info...</a></p>
-            </div>
-            <div class="weather box">
-                <h3>Weather</h3>
+        <div class="contact-container">
+            <div class="info">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
                 <p>
-                    <figure>
-                        <img src="image" alt="logo" class="weather-icon">
-                        <p><span class="temperature"></span> °C</p>
-                        <figcaption></figcaption>
-                    </figure>
-                    Wind Speed: <span class="wind-speed"></span> km/h<br>
-                    Wind Chill: <span class="wind-chill"></span> °C
-            </div>
-            <div class="join box">
-                <button class="join-btn" onclick="window.location.href='../chamber/join.html'">Join Us!</button>
-                <p>Discover how to join the Rosario Chamber of Commercer and how it will benefit your organization!</p>
-            </div>
-            <div class="news box">
-                <h3>News Release</h3>
-                <p>
-                    November 18th - Newells achieved an agonizing 1-0 away win over Rosario Central in a new edition of the Rosario Derby to remain as the sole leader of Group A of the Argentine Professional Football League Cup.
-                    <br>
-                    In the closing of Saturday's interzonal day of the classics.
+                    401 Nansen.  <br>
+                    Rosario, Argentina
                 </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.58273045527!2d-60.686721385294256!3d-32.909198977322575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b65366625f66ab%3A0xc98856393989c6a5!2sNansen%20401%2C%20S2013APG%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1678310416414!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+                <h3>Phone Number</h3>
+                <p>+(54) 341 655-9884</p>
+                <h3>Email</h3>
+                <p>rosariochamber@commerce.com.ar</p>
+                <h3>Operating Hours</h3>
+                <p>10:00am - 5:00pm, Monday to Friday</p>
             </div>
-            <div class="spotlights-container box"></div>
+            
+            <form class="contact-form" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label>
+                        Name<span class="required">*</span>
+                        <input type="text" name="name" required autofocus>
+                    </label>
+                    <label>
+                        Email<span class="required">*</span>
+                        <input type="email" name="email" placeholder="name@email.com" required>
+                    </label>
+                    <label>
+                        Phone Number
+                        <input type="tel" name="phone-number">
+                    </label>
+                    <label for="message">
+                        Message
+                        <textarea maxlength="1000" name="message" id="message"></textarea>
+                    </label>
+                    <input id="date-value" type="hidden" name="date-value">
+                    <button class="contact-submit" type="submit">Send</button>
+                </fieldset>
+            </form>
         </div>
     </main>
+    
     <footer>
         <div class="footer-logo">
             <a href="#">
