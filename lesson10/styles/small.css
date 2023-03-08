@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap");
+
+
+
+body {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom, #d3c3b1,  #adaa92, #b4a4b3, #634a5f);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 960px;
+    padding: 0.7rem;
+    color: #D6D5A8;
+}
+
+header,
+footer {
+    background-color: #3A3E52;
+    text-align: center;
+    color:white;
+
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #AD71E5;
+}
+
+a:active {
+    color: #FF4242;
+}
+
+footer a:link {
+    color: #D6D5A8;
+}
+
+footer a:visited {
+    color: #D6D5A8;
+}
+
+footer a:active {
+    color: #FF4242;
+}
+
+footer a:hover {
+    color: rgb(235, 141, 186);
+}
+
+
+main {
+    padding: 0;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 1.75rem;
+    letter-spacing: normal;
+    margin: 1rem;
+    color:white;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    color:white;
+
+}
+
+main div {
+    display: inline-block;
+    border: 2px solid #4e3069;
+    padding: .5rem;
+    background-color: #47182c;
+    border-radius: 10px;
+}
+
+figure {
+    display: inline-block;
+    padding: .5rem;
+    color: white;
+}
