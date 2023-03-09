@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap");
 
-
-
 body {
     font-size: 100%;
     line-height: 1.5;
     font-family: 'Ubuntu', sans-serif;
-    background-image: linear-gradient(to bottom, #d3c3b1,  #adaa92, #b4a4b3, #634a5f);
+    background-image: linear-gradient(to bottom, #d6d6d6,  #ebdcc6, #e7d7c2, #dfb1a4);
 }
 
 h1 {
@@ -33,7 +31,7 @@ footer {
 
 header,
 footer {
-    background-color: #3A3E52;
+    background-color: #668ca5;
     text-align: center;
     color:white;
 
