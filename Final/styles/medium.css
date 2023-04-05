@@ -1,0 +1,266 @@
+/* small medium view */
+@media only screen and (min-width: 640px) {
+    /* header */
+  
+    .header-logo {
+      height: 75px;
+    }
+  
+    .right-logo {
+      display: block;
+    }
+  
+    .brand-name h1 {
+      font-size: x-large;
+    }
+  
+    .subtitle {
+      font-size: large;
+    }
+  
+    .header-social {
+      grid-column: 3/5;
+      grid-row: 2/3;
+      justify-self: center;
+    }
+  
+    .date {
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+  
+    .menu-btn {
+      display: none;
+    }
+  
+    /* nav */
+    .main-nav {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-evenly;
+    }
+  
+    main {
+      align-content: space-between;
+      justify-content: space-between;
+    }
+  
+    /* fresh page */
+    div.fresh-grid {
+      grid-template-columns: 2fr 2fr;
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+  
+    form.drink-order-form {
+      grid-row: 1/3;
+      margin: 1.5rem 0;
+      justify-self: end;
+    }
+  
+    div.drink-nutrition {
+      grid-row: 2/3;
+      align-self: end;
+      width: 100%;
+      max-width: 350px;
+      justify-self: start;
+      margin: 0;
+    }
+  
+    div.drink-qr-outer-div {
+      grid-column: 1/3;
+    }
+  
+    div.drink-list-div {
+      height: 100%;
+      max-height: 350px;
+      width: 100%;
+      max-width: 280px;
+      justify-self: start;
+    }
+  
+    table.drink-nutrition-table {
+      width: 100%;
+      max-width: 280px;
+    }
+  
+    div.drink-list-inner-div {
+      height: 500px;
+    }
+  
+    div.drink-list-outer-div {
+      margin: 1.5rem 0;
+    }
+  
+    div.drink-nutrition-outer-div {
+      margin: 0 0 1.5rem;
+    }
+  
+    .scrollable {
+      height: 300px;
+    }
+  }
+  
+  /* medium view */
+  @media only screen and (min-width: 748px) {
+    /* header */
+    .header-top-row .logo {
+      width: 150px;
+      height: auto;
+    }
+  
+    .header-top-row h1 {
+      font-size: xx-large;
+    }
+  
+    .subtitle {
+      font-size: x-large;
+    }
+  
+    /* footer */
+    footer {
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-content: center;
+      padding: 0;
+    }
+  
+    footer div {
+      margin-left: 20px;
+      width: 45%;
+    }
+  
+    .footer-address,
+    .footer-logo {
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .footer-logo.large-view {
+      display: none;
+    }
+  
+    .address {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .footer-footer {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+    }
+  
+    footer hr {
+      margin: 0 auto;
+      width: 90%;
+    }
+  
+    footer p {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  
+    .footer-first-line {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-top: 20px;
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+  
+    .footer-subtitle {
+      width: 40%;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 0;
+      margin-left: 0;
+      letter-spacing: 3px;
+    }
+  
+    .footer-contact-info p {
+      height: 7px;
+    }
+  
+    .vertical-bar {
+      display: inline;
+    }
+  
+    .footer-footer-top-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      height: 1.3em;
+    }
+  
+    .footer-footer-bottom-row {
+      width: 100%;
+    }
+  
+    /* header */
+    header nav ul li {
+      width: 100%;
+    }
+  
+    header {
+      padding-top: 20px;
+    }
+  
+    .date {
+      font-size: large;
+    }
+  
+    div.card-container,
+    div.about-us-card-container {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    div.home-page-card {
+      width: 40%;
+      margin-bottom: 20px;
+    }
+  
+    main div p.medium-view {
+      margin: 20px 0;
+    }
+  
+    main div .medium-view {
+      display: inline;
+    }
+  
+    .weather-table,
+    .weather-card hr {
+      max-width: 320px;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    div.fresh-grid {
+      grid-template-columns: 1fr 2fr 2fr 1fr;
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+  
+    div.fresh-grid div.sidebar-pictures {
+      grid-column: 1/2;
+      grid-row: 1/3;
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+    }
+  
+    div.fresh-grid div.sidebar-pictures:nth-child(1) {
+      grid-column: 4/5;
+    }
+  
+    div.drink-qr-outer-div {
+      grid-column: 1/5;
+    }
+  }

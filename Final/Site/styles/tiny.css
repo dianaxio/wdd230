@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+}
+#too-small {
+    display: grid;
+    top: 0; left: 0;
+    position: fixed;
+    grid-template-columns: 1fr;
+    background-color: #2f2f2f;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+}
+#too-small h3 {
+    width: 200px;
+    color: white;
+    text-align: center;
+}
